@@ -1,0 +1,6 @@
+zimpl	v       0	quantAlimentoK@0	"quantAlimentoKG#1"
+zimpl	v       1	quantAlimentoK@1	"quantAlimentoKG#2"
+zimpl	v       2	quantAlimentoK@2	"quantAlimentoKG#3"
+zimpl	c       0	carboidratos_1  	"carboidratos_1"	0.0000000000000000e+000
+zimpl	c       1	proteinas_1     	"proteinas_1"	0.0000000000000000e+000
+zimpl	c       2	vitaminas_1     	"vitaminas_1"	0.0000000000000000e+000
