@@ -10,3 +10,8 @@ Modela-se a resolução utilizando-se a linguagem matemática ZIMPL depois compi
 
 <!-- lista de itens -->
 * [Lista 1](Lista1/README.md)
+
+### Referências
+
+* ![Zimpl User Guide](resources/zimpl_user_guide.png)
+* ![Manual IBM CPLEX]("https://www.ibm.com/docs/en/icos/12.10.0?topic=SSSA5P_12.10.0/ilog.odms.studio.help/Optimization_Studio/topics/COS_home.html")
