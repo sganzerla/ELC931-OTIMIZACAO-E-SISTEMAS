@@ -7,4 +7,4 @@ Modela-se a resolução utilizando-se a linguagem matemática ZIMPL depois compi
 ## Respostas
 
 <!-- lista de itens -->
-* [Resposta 1](Lista1/01/README.md)
+* [Resposta 1](/01/README.md)
