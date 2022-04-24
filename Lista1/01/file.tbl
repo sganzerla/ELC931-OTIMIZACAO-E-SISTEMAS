@@ -1,0 +1,7 @@
+zimpl	v       0	quantProd#1     	"quantProd#1"
+zimpl	v       1	quantProd#2     	"quantProd#2"
+zimpl	v       2	quantProd#3     	"quantProd#3"
+zimpl	c       0	tempoFresa_1    	"tempoFresa_1"	0.0000000000000000e+000
+zimpl	c       1	tempoTorno_1    	"tempoTorno_1"	0.0000000000000000e+000
+zimpl	c       2	tempoRetifica_1 	"tempoRetifica_1"	0.0000000000000000e+000
+zimpl	c       3	vendaProd3_1    	"vendaProd3_1"	0.0000000000000000e+000
