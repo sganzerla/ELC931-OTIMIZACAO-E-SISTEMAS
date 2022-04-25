@@ -1,6 +1,4 @@
 
-set indice := {1, 2, 3};
-
 # grande, medio e pequeno
 set tamanho := {1, 2, 3};
 
