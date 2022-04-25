@@ -9,3 +9,5 @@ Modela-se a resolução utilizando-se a linguagem matemática ZIMPL depois compi
 <!-- lista de itens -->
 * [Resposta 1](01/README.md)
 * [Resposta 2](02/README.md)
+* [Resposta 3 - Incompleto](03/README.md)
+* [Resposta 4](04/README.md)

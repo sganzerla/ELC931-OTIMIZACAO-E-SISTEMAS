@@ -1,0 +1,48 @@
+
+Log started (V20.1.0.0) Sun Apr 24 22:18:47 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 3 rows and 0 columns.
+Reduced LP has 6 rows, 9 columns, and 18 nonzeros.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =           719.999998
+Iteration:     4   Dual objective     =        243333.333333
+
+Dual simplex - Optimal:  Objective =  2.3666666667e+05
+Solution time =    0.00 sec.  Iterations = 6 (3)
+Deterministic time = 0.02 ticks  (18.39 ticks/sec)
+
+
+Variable Name           Solution Value
+quantidadeFabr@0            350.000000
+quantidadeFabr@1            400.000000
+quantidadeFabr@4            400.000000
+quantidadeFabr@5            500.000000
+quantidadeFabr@8            416.666667
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Mon Apr 25 00:42:43 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.02 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 3 rows and 0 columns.
+Reduced LP has 6 rows, 9 columns, and 18 nonzeros.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =           719.999998
+Iteration:     4   Dual objective     =        243333.333333
+
+Dual simplex - Optimal:  Objective =  2.3666666667e+05
+Solution time =    0.03 sec.  Iterations = 6 (3)
+Deterministic time = 0.02 ticks  (0.59 ticks/sec)
+

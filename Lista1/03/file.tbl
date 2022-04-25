@@ -1,0 +1,18 @@
+zimpl	v       0	quantFabricaca@0	"quantFabricacao#1#1"
+zimpl	v       1	quantFabricaca@1	"quantFabricacao#1#2"
+zimpl	v       2	quantFabricaca@2	"quantFabricacao#1#3"
+zimpl	v       3	quantFabricaca@3	"quantFabricacao#2#1"
+zimpl	v       4	quantFabricaca@4	"quantFabricacao#2#2"
+zimpl	v       5	quantFabricaca@5	"quantFabricacao#2#3"
+zimpl	v       6	quantFabricaca@6	"quantFabricacao#3#1"
+zimpl	v       7	quantFabricaca@7	"quantFabricacao#3#2"
+zimpl	v       8	quantFabricaca@8	"quantFabricacao#3#3"
+zimpl	c       0	limiteProducao_1	"limiteProducao_1"	0.0000000000000000e+000
+zimpl	c       1	limiteProducao_2	"limiteProducao_2"	0.0000000000000000e+000
+zimpl	c       2	limiteProducao_3	"limiteProducao_3"	0.0000000000000000e+000
+zimpl	c       3	limiteArmazena@3	"limiteArmazenamento_1"	0.0000000000000000e+000
+zimpl	c       4	limiteArmazena@4	"limiteArmazenamento_2"	0.0000000000000000e+000
+zimpl	c       5	limiteArmazena@5	"limiteArmazenamento_3"	0.0000000000000000e+000
+zimpl	c       6	limiteVenda_1   	"limiteVenda_1"	0.0000000000000000e+000
+zimpl	c       7	limiteVenda_2   	"limiteVenda_2"	0.0000000000000000e+000
+zimpl	c       8	limiteVenda_3   	"limiteVenda_3"	0.0000000000000000e+000
