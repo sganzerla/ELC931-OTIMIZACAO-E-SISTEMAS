@@ -16,3 +16,6 @@ zimpl	c       5	limiteArmazena@5	"limiteArmazenamento_3"	0.0000000000000000e+000
 zimpl	c       6	limiteVenda_1   	"limiteVenda_1"	0.0000000000000000e+000
 zimpl	c       7	limiteVenda_2   	"limiteVenda_2"	0.0000000000000000e+000
 zimpl	c       8	limiteVenda_3   	"limiteVenda_3"	0.0000000000000000e+000
+zimpl	c       9	producaoEquiva@9	"producaoEquivalenteEmFiliais_1"	0.0000000000000000e+000
+zimpl	c      10	producaoEquiva@a	"producaoEquivalenteEmFiliais_2"	0.0000000000000000e+000
+zimpl	c      11	producaoEquiva@b	"producaoEquivalenteEmFiliais_3"	0.0000000000000000e+000

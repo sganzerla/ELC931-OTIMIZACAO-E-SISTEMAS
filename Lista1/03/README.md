@@ -4,10 +4,6 @@
 
 ## Código ZIMPL  file.zpl
 
-    # incompleto exercicio
-
-    set indice := {1, 2, 3};
-
     # grande, medio e pequeno
     set tamanho := {1, 2, 3};
 
@@ -32,10 +28,7 @@
         <2> capacidadeProducao[2]/somaCapacidadeProducao, 
         <3> capacidadeProducao[3]/somaCapacidadeProducao;
 
-
     var quantFabricacao[matrizTamanhoFilial] >= 0;
-
-    # var total = sum<f, t> in matrizTamanhoFilial : quantFabricacao[f, t];
 
     maximize lucro: sum<f, t> in matrizTamanhoFilial : lucroUnitarioEmReais[t] * quantFabricacao[f, t];
 
@@ -51,9 +44,9 @@
         forall <f> in filial do
             sum <t> in tamanho : quantFabricacao[f, t] <= previsaoVenda[f];
 
-    # subto producaoEquivalenteEmFiliais:
-    #     forall <f> in filial do
-    #        (sum <t> in tamanho : quantFabricacao[f, t]) /  total  == proporcaoProducaoEmFiliais[f] ; 
+    subto producaoEquivalenteEmFiliais:
+        forall <f> in filial do
+            proporcaoProducaoEmFiliais[f] * (sum <ff, p> in matrizTamanhoFilial : quantFabricacao[ff, p])  == sum<p> in tamanho : quantFabricacao[f, p];
 
 ## CLI ZIMPL
 
