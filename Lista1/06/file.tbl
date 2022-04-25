@@ -1,0 +1,21 @@
+zimpl	v       0	quantInvestPor@0	"quantInvestPorProjSub1#1"
+zimpl	v       1	quantInvestPor@1	"quantInvestPorProjSub1#2"
+zimpl	v       2	quantInvestPor@2	"quantInvestPorProjSub1#3"
+zimpl	v       3	quantInvestPor@3	"quantInvestPorProjSub2#1"
+zimpl	v       4	quantInvestPor@4	"quantInvestPorProjSub2#2"
+zimpl	v       5	quantInvestPor@5	"quantInvestPorProjSub2#3"
+zimpl	v       6	quantInvestPor@6	"quantInvestPorProjSub3#1"
+zimpl	v       7	quantInvestPor@7	"quantInvestPorProjSub3#2"
+zimpl	c       0	limInvestTotal_1	"limInvestTotal_1"	0.0000000000000000e+000
+zimpl	c       1	minInvestSub1_1 	"minInvestSub1_1"	0.0000000000000000e+000
+zimpl	c       2	minInvestSub2_1 	"minInvestSub2_1"	0.0000000000000000e+000
+zimpl	c       3	minInvestSub3_1 	"minInvestSub3_1"	0.0000000000000000e+000
+zimpl	c       4	limInvestPorPr@4	"limInvestPorProjSub1_1"	0.0000000000000000e+000
+zimpl	c       5	limInvestPorPr@5	"limInvestPorProjSub1_2"	0.0000000000000000e+000
+zimpl	c       6	limInvestPorPr@6	"limInvestPorProjSub1_3"	0.0000000000000000e+000
+zimpl	c       7	limInvestPorPr@7	"limInvestPorProjSub2_1"	0.0000000000000000e+000
+zimpl	c       8	limInvestPorPr@8	"limInvestPorProjSub2_2"	0.0000000000000000e+000
+zimpl	c       9	limInvestPorPr@9	"limInvestPorProjSub2_3"	0.0000000000000000e+000
+zimpl	c      10	limInvestPorPr@a	"limInvestPorProjSub3_1"	0.0000000000000000e+000
+zimpl	c      11	limInvestPorPr@b	"limInvestPorProjSub3_2"	0.0000000000000000e+000
+zimpl	c      12	limMaxInvestSu@c	"limMaxInvestSub2_1"	0.0000000000000000e+000
