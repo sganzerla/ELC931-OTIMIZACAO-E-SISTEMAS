@@ -1,0 +1,567 @@
+
+Log started (V20.1.0.0) Tue Apr 26 01:21:17 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.01 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 4 columns.
+Aggregator did 1 substitutions.
+Reduced LP has 9 rows, 9 columns, and 41 nonzeros.
+Presolve time = 0.00 sec. (0.01 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Scaled dual infeas =           459.999997
+Iteration:     7   Dual objective     =        166666.666667
+
+Dual simplex - Optimal:  Objective =  0.0000000000e+00
+Solution time =    0.00 sec.  Iterations = 9 (6)
+Deterministic time = 0.04 ticks  (40.27 ticks/sec)
+
+
+All variables matching '*' are 0.
+
+Log started (V20.1.0.0) Tue Apr 26 01:23:21 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Dual infeasible due to empty column 'quantMinerio1#1'.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Unbounded or infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (0.25 ticks/sec)
+No solution exists.
+
+Log started (V20.1.0.0) Tue Apr 26 01:33:16 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 5 columns.
+Aggregator did 1 substitutions.
+Reduced LP has 9 rows, 9 columns, and 41 nonzeros.
+Presolve time = 0.00 sec. (0.02 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Scaled dual infeas =           459.999999
+Iteration:     8   Dual objective     =         30300.000000
+
+Dual simplex - Optimal:  Objective =  3.0000000000e+02
+Solution time =    0.00 sec.  Iterations = 10 (7)
+Deterministic time = 0.04 ticks  (41.48 ticks/sec)
+
+
+Log started (V20.1.0.0) Tue Apr 26 01:35:02 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 5 columns.
+Aggregator did 1 substitutions.
+Reduced LP has 9 rows, 9 columns, and 41 nonzeros.
+Presolve time = 0.00 sec. (0.02 ticks)
+
+Iteration log . . .
+Iteration:     1   Scaled dual infeas =           559.999999
+
+Dual simplex - Optimal:  Objective =  1.2000000000e+03
+Solution time =    0.00 sec.  Iterations = 8 (8)
+Deterministic time = 0.04 ticks  (35.70 ticks/sec)
+
+
+Variable Name           Solution Value
+__ObjOffset@e                 1.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Tue Apr 26 01:36:32 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 5 columns.
+Aggregator did 1 substitutions.
+Reduced LP has 9 rows, 9 columns, and 41 nonzeros.
+Presolve time = 0.00 sec. (0.02 ticks)
+
+Iteration log . . .
+Iteration:     1   Scaled dual infeas =           527.999999
+
+Dual simplex - Optimal:  Objective =  7.0000000000e+02
+Solution time =    0.00 sec.  Iterations = 9 (9)
+Deterministic time = 0.04 ticks  (37.61 ticks/sec)
+
+
+Variable Name           Solution Value
+__ObjOffset@e                 1.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Tue Apr 26 01:37:13 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 5 columns.
+Aggregator did 1 substitutions.
+Reduced LP has 9 rows, 9 columns, and 41 nonzeros.
+Presolve time = 0.00 sec. (0.02 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Scaled dual infeas =           660.000000
+
+Dual simplex - Optimal:  Objective =  9.0000000000e+02
+Solution time =    0.00 sec.  Iterations = 5 (5)
+Deterministic time = 0.03 ticks  (33.41 ticks/sec)
+
+
+Log started (V20.1.0.0) Tue Apr 26 01:39:38 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 1200.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 2 rows and 5 columns.
+Reduced MIP has 10 rows, 10 columns, and 39 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 10 rows, 10 columns, and 39 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.02 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 0.00 sec. (0.03 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         1200.0000                           0.00%
+      0     0        cutoff           1200.0000                      9     --- 
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.08 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.08 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  1.2000000000e+03
+Solution time =    0.00 sec.  Iterations = 9  Nodes = 0
+Deterministic time = 0.08 ticks  (78.71 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+__ObjOffset@e                 1.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Tue Apr 26 01:41:02 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.02 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 1200.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 2 rows and 1 columns.
+Reduced MIP has 10 rows, 14 columns, and 52 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 10 rows, 14 columns, and 52 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.02 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 0.00 sec. (0.03 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         1200.0000                           0.00%
+      0     0        cutoff           1200.0000                     13     --- 
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.08 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.08 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  1.2000000000e+03
+Solution time =    0.02 sec.  Iterations = 13  Nodes = 0
+Deterministic time = 0.08 ticks  (5.11 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+__ObjOffset@e                 1.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Tue Apr 26 01:41:33 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 1200.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 2 rows and 6 columns.
+Reduced MIP has 3 rows, 9 columns, and 16 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.01 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 3 rows, 9 columns, and 16 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.01 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 0.00 sec. (0.01 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         1200.0000                           0.00%
+*     0+    0                         6610.0000                           0.00%
+      0     0     unbounded           6610.0000                      3         
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.04 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.04 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer unbounded:  Objective =  6.6100000000e+03
+Current MIP best bound is infinite.
+Solution time =    0.00 sec.  Iterations = 3  Nodes = 0
+Deterministic time = 0.04 ticks  (37.21 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+quantMinerio1#1              10.000000
+quantMinerio3#3              10.000000
+quantLigaA                   10.000000
+quantLigaB                   10.000000
+__ObjOffset@e                 1.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Tue Apr 26 01:42:39 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 700.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 2 rows and 5 columns.
+Reduced MIP has 10 rows, 10 columns, and 39 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 10 rows, 10 columns, and 39 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.02 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 0.00 sec. (0.03 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          700.0000                           0.00%
+      0     0        cutoff            700.0000                      9     --- 
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.08 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.08 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  7.0000000000e+02
+Solution time =    0.02 sec.  Iterations = 9  Nodes = 0
+Deterministic time = 0.08 ticks  (4.92 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+__ObjOffset@e                 1.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Tue Apr 26 01:43:54 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 700.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 2 rows and 1 columns.
+Reduced MIP has 10 rows, 14 columns, and 52 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 10 rows, 14 columns, and 52 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.02 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 0.00 sec. (0.03 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          700.0000                           0.00%
+      0     0        cutoff            700.0000                     11     --- 
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (0.08 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (0.08 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  7.0000000000e+02
+Solution time =    0.01 sec.  Iterations = 11  Nodes = 0
+Deterministic time = 0.08 ticks  (5.21 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+__ObjOffset@e                 1.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Tue Apr 26 01:44:32 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 700.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 2 rows and 5 columns.
+Reduced MIP has 10 rows, 10 columns, and 39 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 10 rows, 10 columns, and 39 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.01 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 0.00 sec. (0.03 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          700.0000                           0.00%
+      0     0        cutoff            700.0000                      8     --- 
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.07 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.07 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  7.0000000000e+02
+Solution time =    0.02 sec.  Iterations = 8  Nodes = 0
+Deterministic time = 0.07 ticks  (4.67 ticks/sec)
+
+
+Log started (V20.1.0.0) Tue Apr 26 01:45:37 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 700.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 2 rows and 5 columns.
+Reduced MIP has 9 rows, 10 columns, and 36 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 9 rows, 10 columns, and 36 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.02 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 0.00 sec. (0.02 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          700.0000                           0.00%
+      0     0        cutoff            700.0000                      8     --- 
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.07 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.07 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  7.0000000000e+02
+Solution time =    0.00 sec.  Iterations = 8  Nodes = 0
+Deterministic time = 0.07 ticks  (73.24 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+__ObjOffset@e                 1.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Tue Apr 26 01:46:05 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 700.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 2 rows and 5 columns.
+Reduced MIP has 8 rows, 10 columns, and 33 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 8 rows, 10 columns, and 33 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.01 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 0.00 sec. (0.03 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          700.0000                           0.00%
+*     0+    0                       5.75001e+08                           0.00%
+      0     0     unbounded         5.75001e+08                      6         
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (0.07 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (0.07 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer unbounded:  Objective =  5.7500070000e+08
+Current MIP best bound is infinite.
+Solution time =    0.02 sec.  Iterations = 6  Nodes = 0
+Deterministic time = 0.07 ticks  (4.63 ticks/sec)
+
+
+Log started (V20.1.0.0) Tue Apr 26 01:47:48 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 700.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 2 rows and 5 columns.
+Reduced MIP has 9 rows, 10 columns, and 36 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 9 rows, 10 columns, and 36 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.02 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 0.00 sec. (0.02 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          700.0000                           0.00%
+      0     0        cutoff            700.0000                      8     --- 
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (0.07 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (0.07 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  7.0000000000e+02
+Solution time =    0.02 sec.  Iterations = 8  Nodes = 0
+Deterministic time = 0.07 ticks  (4.51 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+__ObjOffset@e                 1.000000
+All other variables matching '*' are 0.

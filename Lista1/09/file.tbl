@@ -1,0 +1,26 @@
+zimpl	v       0	quantMinerio1#1 	"quantMinerio1#1"
+zimpl	v       1	quantMinerio1#2 	"quantMinerio1#2"
+zimpl	v       2	quantMinerio1#3 	"quantMinerio1#3"
+zimpl	v       3	quantMinerio1#4 	"quantMinerio1#4"
+zimpl	v       4	quantMinerio2#1 	"quantMinerio2#1"
+zimpl	v       5	quantMinerio2#2 	"quantMinerio2#2"
+zimpl	v       6	quantMinerio2#3 	"quantMinerio2#3"
+zimpl	v       7	quantMinerio2#4 	"quantMinerio2#4"
+zimpl	v       8	quantMinerio3#1 	"quantMinerio3#1"
+zimpl	v       9	quantMinerio3#2 	"quantMinerio3#2"
+zimpl	v      10	quantMinerio3#3 	"quantMinerio3#3"
+zimpl	v      11	quantMinerio3#4 	"quantMinerio3#4"
+zimpl	v      12	quantLigaA      	"quantLigaA"
+zimpl	v      13	quantLigaB      	"quantLigaB"
+zimpl	v      14	__ObjOffset@e   	"@@ObjOffset"	1.0000000000000000e+000
+zimpl	c       0	limiteProducao@0	"limiteProducaoMinerio_1"	0.0000000000000000e+000
+zimpl	c       1	limiteProducao@1	"limiteProducaoMinerio_2"	0.0000000000000000e+000
+zimpl	c       2	limiteProducao@2	"limiteProducaoMinerio_3"	0.0000000000000000e+000
+zimpl	c       3	componentesLig@3	"componentesLigaA_1"	0.0000000000000000e+000
+zimpl	c       4	componentesLig@4	"componentesLigaB_1"	0.0000000000000000e+000
+zimpl	c       5	percentCompone@5	"percentComponente1LigaA_1"	0.0000000000000000e+000
+zimpl	c       6	percentCompone@6	"percentComponente2LigaA_1"	0.0000000000000000e+000
+zimpl	c       7	percentCompone@7	"percentComponente4LigaA_1"	0.0000000000000000e+000
+zimpl	c       8	percentCompone@8	"percentComponente2LigaB1_1"	0.0000000000000000e+000
+zimpl	c       9	percentCompone@9	"percentComponente3LigaB_1"	0.0000000000000000e+000
+zimpl	c      10	percentCompone@a	"percentComponente4LigaB_1"	0.0000000000000000e+000
