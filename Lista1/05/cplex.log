@@ -225,3 +225,59 @@ MIP - Integer optimal solution:  Objective =  1.9760000000e+02
 Solution time =    0.02 sec.  Iterations = 10  Nodes = 0
 Deterministic time = 0.21 ticks  (13.32 ticks/sec)
 
+
+Log started (V20.1.0.0) Mon Apr 25 23:12:39 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 357.800000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 1 rows and 0 columns.
+Reduced MIP has 4 rows, 6 columns, and 10 nonzeros.
+Reduced MIP has 0 binaries, 6 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.01 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 4 rows, 6 columns, and 10 nonzeros.
+Reduced MIP has 0 binaries, 6 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.01 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 0.00 sec. (0.01 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          357.8000        0.0000           100.00%
+*     0+    0                          265.8000        0.0000           100.00%
+      0     0      189.2889     2      265.8000      189.2889        3   28.79%
+*     0+    0                          205.6000      189.2889             7.93%
+      0     0      192.5474     4      205.6000       Cuts: 3        5    6.35%
+      0     0      193.3143     1      205.6000       Cuts: 4        6    5.98%
+*     0+    0                          197.6000      193.3143             2.17%
+      0     0      193.3745     6      197.6000    MIRcuts: 2        8    2.14%
+      0     0      193.8802     6      197.6000    MIRcuts: 1        9    1.88%
+      0     0      193.9037     5      197.6000    MIRcuts: 1       10    1.87%
+      0     0        cutoff            197.6000      197.6000       10    0.00%
+Elapsed time = 0.00 sec. (0.21 ticks, tree = 0.01 MB, solutions = 4)
+
+Mixed integer rounding cuts applied:  3
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (0.21 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (0.21 ticks)
+
+Solution pool: 4 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  1.9760000000e+02
+Solution time =    0.02 sec.  Iterations = 10  Nodes = 0
+Deterministic time = 0.21 ticks  (13.32 ticks/sec)
+
