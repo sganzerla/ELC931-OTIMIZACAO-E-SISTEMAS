@@ -4,40 +4,36 @@
 
 ## Código ZIMPL  file.zpl
 
-    # Incorreto
-    
-    # B-737, EB-190, Bandeirante
     set tipoAviao := {1, 2, 3};
 
-    # SP-Rio, SP-PoA
+    # RJ, POA
     set destino := {1, 2};
 
-    set matrizTipoAviaoDestino := tipoAviao * destino;
+    param custoViagemRJ[tipoAviao] := <1> 23, <2> 5, <3> 1.4;
+    param custoViagemPOA[tipoAviao] := <1> 58, <2> 10, <3> 3.8;
 
-    param disponibilidadeAvioes[tipoAviao] := <1> 8, <2> 15, <3> 13;
+    param cargaTransportada[destino] := <1> 150, <2> 100;
 
-    param custoViagem[matrizTipoAviaoDestino] := 
-        # SP-Rio
-        <1, 1> 23, <2, 1> 5, <3, 1> 1.4, 
-        # SP-PoA
-        <1, 2> 58, <2, 2> 10, <3, 2> 3.8;
+    param disponibilidadeAviao[tipoAviao] := <1> 8, <2> 15, <3> 12;
 
-    param tonelagem[tipoAviao] := <1> 45, <2> 7, <3> 4;
+    param tonelagemAvioes[tipoAviao] := <1> 45, <2> 7, <3> 4;
 
-    param tonelagemMaximaDestino[destino] := <1> 150, <2> 100;
+    var quantAvioesRJ[tipoAviao] integer >= 0;
+    var quantAvioesPOA[tipoAviao] integer >= 0;
 
-    var quantidadeAvioesPorDestino[matrizTipoAviaoDestino] >= 0;
+    minimize custo : 
+        (sum <t> in tipoAviao : quantAvioesRJ[t] * custoViagemRJ[t]) +
+        (sum <t> in tipoAviao : quantAvioesPOA[t] * custoViagemPOA[t]);
 
-    minimize custos : sum <t, d> in matrizTipoAviaoDestino : quantidadeAvioesPorDestino[t, d] * custoViagem[t, d];
+    subto cargaTransportadaRJ :
+        sum <t> in tipoAviao : quantAvioesRJ[t] * tonelagemAvioes[t] >= cargaTransportada[1];
 
-    subto quantidadeLimiteAvioes :
-        forall <t> in tipoAviao do
-            sum <d> in destino : quantidadeAvioesPorDestino[t, d] <= disponibilidadeAvioes[t];
+    subto cargaTransportadaPOA :
+        sum <t> in tipoAviao : quantAvioesPOA[t] * tonelagemAvioes[t] >= cargaTransportada[2];
 
-        
-    subto tonelagemLimiteDestino: 
-        forall <d> in destino do
-            sum <t> in tipoAviao : quantidadeAvioesPorDestino[t, d] * tonelagem[t] <= tonelagemMaximaDestino[d];  
+    subto limiteAviao:
+        forall <t> in tipoAviao :
+            (quantAvioesRJ[t] + quantAvioesPOA[t]) <= disponibilidadeAviao[t];
 
 ## CLI ZIMPL
 

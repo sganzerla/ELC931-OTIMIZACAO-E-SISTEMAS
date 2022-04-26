@@ -1,11 +1,11 @@
-zimpl	v       0	quantidadeAvio@0	"quantidadeAvioesPorDestino#1#1"
-zimpl	v       1	quantidadeAvio@1	"quantidadeAvioesPorDestino#1#2"
-zimpl	v       2	quantidadeAvio@2	"quantidadeAvioesPorDestino#2#1"
-zimpl	v       3	quantidadeAvio@3	"quantidadeAvioesPorDestino#2#2"
-zimpl	v       4	quantidadeAvio@4	"quantidadeAvioesPorDestino#3#1"
-zimpl	v       5	quantidadeAvio@5	"quantidadeAvioesPorDestino#3#2"
-zimpl	c       0	quantidadeLimi@0	"quantidadeLimiteAvioes_1"	0.0000000000000000e+000
-zimpl	c       1	quantidadeLimi@1	"quantidadeLimiteAvioes_2"	0.0000000000000000e+000
-zimpl	c       2	quantidadeLimi@2	"quantidadeLimiteAvioes_3"	0.0000000000000000e+000
-zimpl	c       3	tonelagemLimit@3	"tonelagemLimiteDestino_1"	0.0000000000000000e+000
-zimpl	c       4	tonelagemLimit@4	"tonelagemLimiteDestino_2"	0.0000000000000000e+000
+zimpl	v       0	quantAvioesRJ#1 	"quantAvioesRJ#1"
+zimpl	v       1	quantAvioesRJ#2 	"quantAvioesRJ#2"
+zimpl	v       2	quantAvioesRJ#3 	"quantAvioesRJ#3"
+zimpl	v       3	quantAvioesPOA#1	"quantAvioesPOA#1"
+zimpl	v       4	quantAvioesPOA#2	"quantAvioesPOA#2"
+zimpl	v       5	quantAvioesPOA#3	"quantAvioesPOA#3"
+zimpl	c       0	cargaTransport@0	"cargaTransportadaRJ_1"	0.0000000000000000e+000
+zimpl	c       1	cargaTransport@1	"cargaTransportadaPOA_1"	0.0000000000000000e+000
+zimpl	c       2	limiteAviao_1   	"limiteAviao_1"	0.0000000000000000e+000
+zimpl	c       3	limiteAviao_2   	"limiteAviao_2"	0.0000000000000000e+000
+zimpl	c       4	limiteAviao_3   	"limiteAviao_3"	0.0000000000000000e+000

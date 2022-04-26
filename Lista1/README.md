@@ -9,5 +9,5 @@ Repositório para resolução das listas de problemas de programação linear.
 * [Resposta 2](02/README.md)
 * [Resposta 3](03/README.md)
 * [Resposta 4](04/README.md)
-* [Resposta 5 - Errado](05/README.md)
+* [Resposta 5](05/README.md)
 * [Resposta 6](06/README.md)
