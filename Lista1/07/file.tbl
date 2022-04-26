@@ -1,0 +1,19 @@
+zimpl	v       0	quantCia1#1     	"quantCia1#1"
+zimpl	v       1	quantCia1#2     	"quantCia1#2"
+zimpl	v       2	quantCia1#3     	"quantCia1#3"
+zimpl	v       3	quantCia1#4     	"quantCia1#4"
+zimpl	v       4	quantCia2#1     	"quantCia2#1"
+zimpl	v       5	quantCia2#2     	"quantCia2#2"
+zimpl	v       6	quantCia2#3     	"quantCia2#3"
+zimpl	v       7	quantCia2#4     	"quantCia2#4"
+zimpl	v       8	quantCia3#1     	"quantCia3#1"
+zimpl	v       9	quantCia3#2     	"quantCia3#2"
+zimpl	v      10	quantCia3#3     	"quantCia3#3"
+zimpl	v      11	quantCia3#4     	"quantCia3#4"
+zimpl	c       0	limiteCombusti@0	"limiteCombustivelDistribuido_1"	0.0000000000000000e+000
+zimpl	c       1	limiteCombusti@1	"limiteCombustivelDistribuido_2"	0.0000000000000000e+000
+zimpl	c       2	limiteCombusti@2	"limiteCombustivelDistribuido_3"	0.0000000000000000e+000
+zimpl	c       3	minimoCombusti@3	"minimoCombustivel_1"	0.0000000000000000e+000
+zimpl	c       4	minimoCombusti@4	"minimoCombustivel_2"	0.0000000000000000e+000
+zimpl	c       5	minimoCombusti@5	"minimoCombustivel_3"	0.0000000000000000e+000
+zimpl	c       6	minimoCombusti@6	"minimoCombustivel_4"	0.0000000000000000e+000

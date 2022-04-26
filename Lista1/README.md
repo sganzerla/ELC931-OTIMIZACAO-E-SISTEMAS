@@ -11,3 +11,4 @@ Repositório para resolução das listas de problemas de programação linear.
 * [Resposta 4](04/README.md)
 * [Resposta 5](05/README.md)
 * [Resposta 6](06/README.md)
+* [Resposta 7](07/README.md)
