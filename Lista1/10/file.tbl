@@ -1,0 +1,14 @@
+zimpl	v       0	quantNutrSojaK@0	"quantNutrSojaKg#1"
+zimpl	v       1	quantNutrSojaK@1	"quantNutrSojaKg#2"
+zimpl	v       2	quantNutrSojaK@2	"quantNutrSojaKg#3"
+zimpl	v       3	quantNutrMilho@3	"quantNutrMilhoKg#1"
+zimpl	v       4	quantNutrMilho@4	"quantNutrMilhoKg#2"
+zimpl	v       5	quantNutrMilho@5	"quantNutrMilhoKg#3"
+zimpl	v       6	quantNutrCanaK@6	"quantNutrCanaKg#1"
+zimpl	v       7	quantNutrCanaK@7	"quantNutrCanaKg#2"
+zimpl	v       8	quantNutrCanaK@8	"quantNutrCanaKg#3"
+zimpl	c       0	minimoProduzid@0	"minimoProduzido_1"	0.0000000000000000e+000
+zimpl	c       1	maximoCalcio_1  	"maximoCalcio_1"	0.0000000000000000e+000
+zimpl	c       2	minimoCalcio_1  	"minimoCalcio_1"	0.0000000000000000e+000
+zimpl	c       3	minimoProteina_1	"minimoProteina_1"	0.0000000000000000e+000
+zimpl	c       4	maximoCarboidr@4	"maximoCarboidrato_1"	0.0000000000000000e+000

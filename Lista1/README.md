@@ -14,3 +14,4 @@ Repositório para resolução das listas de problemas de programação linear.
 * [Resposta 7](07/README.md)
 * [Resposta 8 não](08/README.md)
 * [Resposta 9 - flexibilizado uma restrição](09/README.md)
+* [Resposta 10](10/README.md)
