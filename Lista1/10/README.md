@@ -47,11 +47,11 @@
 
     ## CLI ZIMPL
 
-    Comandos para compilar arquivo *.zpl:
+Comandos para compilar arquivo *.zpl:
 
-        zimpl file.zpl
-        <!-- output  file.lp -->
-        <!-- output  file.tbl -->
+    zimpl file.zpl
+    <!-- output  file.lp -->
+    <!-- output  file.tbl -->
 
 ## CLI CPLEX
 
