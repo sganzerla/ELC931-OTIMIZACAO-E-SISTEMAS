@@ -1,0 +1,12 @@
+zimpl	v       0	producaoMensal#1	"producaoMensal#1"
+zimpl	v       1	producaoMensal#2	"producaoMensal#2"
+zimpl	v       2	producaoMensal#3	"producaoMensal#3"
+zimpl	v       3	producaoMensal#4	"producaoMensal#4"
+zimpl	c       0	contratoVendas_1	"contratoVendas_1"	0.0000000000000000e+000
+zimpl	c       1	contratoVendas_2	"contratoVendas_2"	0.0000000000000000e+000
+zimpl	c       2	contratoVendas_3	"contratoVendas_3"	0.0000000000000000e+000
+zimpl	c       3	contratoVendas_4	"contratoVendas_4"	0.0000000000000000e+000
+zimpl	c       4	limiteProducao_1	"limiteProducao_1"	0.0000000000000000e+000
+zimpl	c       5	limiteProducao_2	"limiteProducao_2"	0.0000000000000000e+000
+zimpl	c       6	limiteProducao_3	"limiteProducao_3"	0.0000000000000000e+000
+zimpl	c       7	limiteProducao_4	"limiteProducao_4"	0.0000000000000000e+000
