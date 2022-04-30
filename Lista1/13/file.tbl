@@ -1,0 +1,11 @@
+zimpl	v       0	produtosFabric@0	"produtosFabrica1#1"
+zimpl	v       1	produtosFabric@1	"produtosFabrica1#2"
+zimpl	v       2	produtosFabric@2	"produtosFabrica1#3"
+zimpl	v       3	produtosFabric@3	"produtosFabrica1#4"
+zimpl	v       4	produtosFabric@4	"produtosFabrica2#1"
+zimpl	v       5	produtosFabric@5	"produtosFabrica2#2"
+zimpl	v       6	produtosFabric@6	"produtosFabrica2#3"
+zimpl	v       7	produtosFabric@7	"produtosFabrica2#4"
+zimpl	c       0	limiteProducao@0	"limiteProducaoFabrica1_1"	0.0000000000000000e+000
+zimpl	c       1	limiteProducao@1	"limiteProducaoFabrica2_1"	0.0000000000000000e+000
+zimpl	c       2	demandaDistrib@2	"demandaDistribuidor4_1"	0.0000000000000000e+000
