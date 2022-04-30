@@ -13,14 +13,13 @@ Necessário instalar o CPLEX e o ZIMPL.
 O ZIMPL já vêm com um executável sem instalação, mas o CPLEX precisa ser instalado.
 
 O dowload do ZIMPL pode ser obtido através do link:
-    [zimpl.zib.de/download](https://zimpl.zib.de/download/)
-    [Nesse repositório](https://github.com/sganzerla/ELC931-OTIMIZACAO-E-SISTEMAS/blob/main/zimpl.exe)
+* [zimpl.zib.de/download](https://zimpl.zib.de/download/)
+* [Nesse repositório](https://github.com/sganzerla/ELC931-OTIMIZACAO-E-SISTEMAS/blob/main/zimpl.exe)
 
-O download do CPLEX pode ser obtido através do link:
-    [](https://www.ibm.com/academic/topic/data-science)
+O download do CPLEX pode ser obtido através do link (necessário criar uma conta utilizando email acadêmico):
+* [https://www.ibm.com/academic](https://www.ibm.com/academic/topic/data-science)
 
-    Necessário criar uma conta utilizando email acadêmico.
-    ![image](resources/CPLEX.png)
+![image](resources/CPLEX.png)
 
 ## Listas
 
