@@ -18,3 +18,4 @@ Repositório para resolução das listas de problemas de programação linear.
 * [Resposta 11 - flexibilizado uma restrição](11/README.md)
 * [Resposta 12](12/README.md)
 * [Resposta 13 - parcialmente resolvido](13/README.md)
+* [Resposta 16 - solucao nao factivel](16/README.md)
