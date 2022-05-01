@@ -1,21 +1,21 @@
-zimpl	v       0	quantFabricaca@0	"quantFabricacao#1#1"
-zimpl	v       1	quantFabricaca@1	"quantFabricacao#1#2"
-zimpl	v       2	quantFabricaca@2	"quantFabricacao#1#3"
-zimpl	v       3	quantFabricaca@3	"quantFabricacao#2#1"
-zimpl	v       4	quantFabricaca@4	"quantFabricacao#2#2"
-zimpl	v       5	quantFabricaca@5	"quantFabricacao#2#3"
-zimpl	v       6	quantFabricaca@6	"quantFabricacao#3#1"
-zimpl	v       7	quantFabricaca@7	"quantFabricacao#3#2"
-zimpl	v       8	quantFabricaca@8	"quantFabricacao#3#3"
-zimpl	c       0	limiteProducao_1	"limiteProducao_1"	0.0000000000000000e+000
-zimpl	c       1	limiteProducao_2	"limiteProducao_2"	0.0000000000000000e+000
-zimpl	c       2	limiteProducao_3	"limiteProducao_3"	0.0000000000000000e+000
-zimpl	c       3	limiteArmazena@3	"limiteArmazenamento_1"	0.0000000000000000e+000
-zimpl	c       4	limiteArmazena@4	"limiteArmazenamento_2"	0.0000000000000000e+000
-zimpl	c       5	limiteArmazena@5	"limiteArmazenamento_3"	0.0000000000000000e+000
-zimpl	c       6	limiteVenda_1   	"limiteVenda_1"	0.0000000000000000e+000
-zimpl	c       7	limiteVenda_2   	"limiteVenda_2"	0.0000000000000000e+000
-zimpl	c       8	limiteVenda_3   	"limiteVenda_3"	0.0000000000000000e+000
-zimpl	c       9	producaoEquiva@9	"producaoEquivalenteEmFiliais_1"	0.0000000000000000e+000
-zimpl	c      10	producaoEquiva@a	"producaoEquivalenteEmFiliais_2"	0.0000000000000000e+000
-zimpl	c      11	producaoEquiva@b	"producaoEquivalenteEmFiliais_3"	0.0000000000000000e+000
+zimpl	v       0	X#1#1           	"X#1#1"
+zimpl	v       1	X#1#2           	"X#1#2"
+zimpl	v       2	X#1#3           	"X#1#3"
+zimpl	v       3	X#2#1           	"X#2#1"
+zimpl	v       4	X#2#2           	"X#2#2"
+zimpl	v       5	X#2#3           	"X#2#3"
+zimpl	v       6	X#3#1           	"X#3#1"
+zimpl	v       7	X#3#2           	"X#3#2"
+zimpl	v       8	X#3#3           	"X#3#3"
+zimpl	c       0	c1_1            	"c1_1"	0.0000000000000000e+000
+zimpl	c       1	c1_2            	"c1_2"	0.0000000000000000e+000
+zimpl	c       2	c1_3            	"c1_3"	0.0000000000000000e+000
+zimpl	c       3	c2_1            	"c2_1"	0.0000000000000000e+000
+zimpl	c       4	c2_2            	"c2_2"	0.0000000000000000e+000
+zimpl	c       5	c2_3            	"c2_3"	0.0000000000000000e+000
+zimpl	c       6	c3_1            	"c3_1"	0.0000000000000000e+000
+zimpl	c       7	c3_2            	"c3_2"	0.0000000000000000e+000
+zimpl	c       8	c3_3            	"c3_3"	0.0000000000000000e+000
+zimpl	c       9	c4_1            	"c4_1"	0.0000000000000000e+000
+zimpl	c      10	c4_2            	"c4_2"	0.0000000000000000e+000
+zimpl	c      11	c4_3            	"c4_3"	0.0000000000000000e+000

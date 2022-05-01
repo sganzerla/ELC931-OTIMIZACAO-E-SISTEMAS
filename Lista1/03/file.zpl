@@ -1,44 +1,60 @@
+# filiais
+set f := {1 to 3};
+
+# produto
 # grande, medio e pequeno
-set tamanho := {1, 2, 3};
+set p := {1, 2, 3};
 
-set filial := {1, 2, 3};
+# fabrica * produto 
+set fp := f * p;
 
-set matrizTamanhoFilial := tamanho * filial;
+# lucro unitario de cada produto
+param L[p] := <1> 140, <2> 120, <3> 100;
 
-param lucroUnitarioEmReais[tamanho] := <1> 140, <2> 120, <3> 100;
+# capacidade de producao de cada fabrica
+param C[f] := <1> 750, <2> 900, <3> 450;
 
-param capacidadeProducao[filial] := <1> 750, <2> 900, <3> 450;
+# espaco disponível para armazenamento em cada fabrica
+param E[f] := <1> 1170, <2> 1080, <3> 450;
 
-param espacoArmazenamentoEmMetros2[filial] := <1> 1170, <2> 1080, <3> 450;
+# tamanho dos produtos
+param T[p] := <1> 1.8, <2> 1.35, <3> 1.08;
 
-param tamanhoUnitarioPecaEmMetros2[tamanho] := <1> 1.8, <2> 1.35, <3> 1.08;
+# previsao de venda
+param V[p] := <1> 900, <2> 1200, <3> 750;
 
-param previsaoVenda[tamanho] := <1> 900, <2> 1200, <3> 750;
+# Capacidade de produção geral
+param CPG := sum <fx> in f : C[fx]; 
 
-param somaCapacidadeProducao := sum <f> in filial : capacidadeProducao[f]; 
+# Capacidade de produção proporcional
+param CPP[f] := 
+    <1> C[1]/CPG,
+    <2> C[2]/CPG, 
+    <3> C[3]/CPG;
 
-param proporcaoProducaoEmFiliais[filial] := 
-    <1> capacidadeProducao[1]/somaCapacidadeProducao,
-    <2> capacidadeProducao[2]/somaCapacidadeProducao, 
-    <3> capacidadeProducao[3]/somaCapacidadeProducao;
+var X[fp] >= 0;
 
-var quantFabricacao[matrizTamanhoFilial] >= 0;
+maximize lucro:
+    sum<fx, px> in fp :
+        L[px] * X[fx, px];
 
-maximize lucro: sum<f, t> in matrizTamanhoFilial : lucroUnitarioEmReais[t] * quantFabricacao[f, t];
+# limite de produção das fabricas
+subto c1: 
+    forall <fx> in f :
+        sum <px> in p : X[fx, px] <= C[fx];
 
-subto limiteProducao: 
-    forall <f> in filial do
-        sum <t> in tamanho : quantFabricacao[f, t] <= capacidadeProducao[f];
+# limite de armazenamento das fabricas
+subto c2:
+    forall <fx> in f :
+        sum <px> in p : X[fx, px] * T[px] <= E[fx];
 
-subto limiteArmazenamento:
-    forall <f> in filial do
-        sum <t> in tamanho : quantFabricacao[f, t] * tamanhoUnitarioPecaEmMetros2[t] <= espacoArmazenamentoEmMetros2[f];
+# restrição de quantidade de vendas
+subto c3:
+    forall <px> in p :
+        sum <fx> in f : X[fx, px] <= V[px];
 
-subto limiteVenda:
-    forall <f> in filial do
-        sum <t> in tamanho : quantFabricacao[f, t] <= previsaoVenda[f];
-
-subto producaoEquivalenteEmFiliais:
-    forall <f> in filial do
-        proporcaoProducaoEmFiliais[f] * (sum <ff, p> in matrizTamanhoFilial : quantFabricacao[ff, p])  == sum<p> in tamanho : quantFabricacao[f, p];
+# distribuição balanceada de carga de trabalho entre todas as frabicas
+subto c4:
+    forall <fx> in f :
+        CPP[fx] * (sum <ff, px> in fp : X[ff, px])  == sum <px> in p : X[fx, px];
  
