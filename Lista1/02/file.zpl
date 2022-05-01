@@ -1,22 +1,33 @@
+# nutriente
+# carboidrato, proteina, vitamina
+set n := { 1 to 3};
+
+# alimento
 # milho, silagem, alfafa
-set indice := {1, 2, 3};
+set a := { 1 to 3};
 
-param custoAlimentoKgReais[indice] := <1> 0.21, <2> 0.18, <3> 0.15;
+# nutriente * alimento
+set na := n*a;
 
-param qtdCarboidratros[indice] := <1> 90, <2> 20, <3> 40;
+# custo do alimento por kilo em reais
+param C[a] := <1> 0.21, <2> 0.18, <3> 0.15;
 
-param qtdProteinas[indice] := <1>30, <2> 80, <3> 60;
+# consumo de nutrientes mínimo por alimento por dia
+param M[a] := <1> 200, <2> 180, <3> 150;
 
-param qtdVitaminas[indice] := <1>10, <2> 20, <3> 60;
+# quantidade de nutrientes em cada kilo de alimento
+param NA[na] :=     
+                <1,1> 90, <1,2> 20, <1,3> 40,
+                <2,1> 30, <2,2> 80, <2,3> 60, 
+                <3,1> 10, <3,2> 20, <3,3> 60;  
 
-var quantAlimentoKG[indice] >= 0;
+var X[a] >= 0;
 
-minimize custo: sum<i> in indice : custoAlimentoKgReais[i] * quantAlimentoKG[i];
+minimize custo :
+    sum <ax> in a: C[ax] * X[ax];
 
-subto carboidratos:  sum<i> in indice : qtdCarboidratros[i] * quantAlimentoKG[i] >= 200;
-
-subto proteinas: sum<i> in indice : qtdProteinas[i] * quantAlimentoKG[i] >= 180;
-
-subto vitaminas: sum<i> in indice : qtdVitaminas[i] * quantAlimentoKG[i] >= 150;
-
- 
+# minimo de nutrientes  
+subto c1:
+    forall <nx> in n:
+        sum <ax> in a: 
+            NA[nx,ax] * X[ax] >= M[nx]; 
