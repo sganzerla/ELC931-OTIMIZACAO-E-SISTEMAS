@@ -4,31 +4,39 @@
 
 ## Código ZIMPL  file.zpl
 
-    set indice := {1, 2, 3};
+    # Chapas: A, B e C
+    set c := {1 to 3};
 
-    # A, B e C
+    # Processo: prensado ou esmaltado
+    set p := {1, 2};
 
-    set tipoChapa := {1, 2, 3};
+    # chapas * processo
+    set cp := c * p;
 
-    param minutosPrensarChapa[tipoChapa] := <1> 1, <2> 1, <3> 2;
+    # limite de tempo de uso em cada processo
+    param T[p] := <1> 2000, <2> 8000;
 
-    param minutosEsmaltarChapa[tipoChapa] := <1> 3, <2> 4.5, <3> 1;
+    # tempo gasto por chapa em cada processo
+    param CP[cp] := 
+                    <1,1> 1, <1,2> 3,
+                    <2,1> 1, <2,2> 4.5,
+                    <3,1> 2, <3,2> 1;
 
-    param lucroUnitario[tipoChapa] := <1> 5, <2> 7 , <3> 8;
+    # lucro por chapa produzida
+    param L[c] := <1> 5, <2> 7 , <3> 8;
 
-    param  minutosUsoPrensa  := 2000;
+    # quantidade de chapas produzidas
+    var X[c] >= 0;
 
-    param minutosUsoEsmaltagem := 8000;
+    maximize lucro : 
+        sum <cx> in c :
+            L[cx] * X[cx];
 
-    var quantidadeChapaProduzir[tipoChapa] >= 0;
-
-    maximize lucro : sum <i> in indice : lucroUnitario[i] * quantidadeChapaProduzir[i];
-
-    subto  limiteMinutosPrensa:
-        sum <t> in tipoChapa : minutosPrensarChapa[t] * quantidadeChapaProduzir[t] <= minutosUsoPrensa;
-
-    subto minutosUsoEsmaltagem:
-        sum <t> in tipoChapa : minutosEsmaltarChapa[t] * quantidadeChapaProduzir[t] <= minutosUsoEsmaltagem;
+    # limite de tempo para producao de chapas
+    subto  c1:
+        forall <px> in p:
+            sum <cx> in c:
+                CP[cx, px] * X[cx] <= T[px];
 
 ## CLI ZIMPL
 
