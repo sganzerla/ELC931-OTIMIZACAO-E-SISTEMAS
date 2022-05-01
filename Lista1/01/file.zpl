@@ -1,16 +1,39 @@
-set indice := {1, 2, 3};
+# produtos
+# 1, 2, 3
+set p := {1, 2, 3};
  
-param lucroProd[indice] := <1> 30, <2> 12, <3> 15;
+# maquinas
+# fresa, torno e retifica
+set m := {1, 2, 3};
 
-var quantProd[indice] integer;
+# produto * máquina
+set pm := p*m;
 
-maximize lucro: sum<i> in indice :lucroProd[i] * quantProd[i];
+# tempo disponivel cada máquina
+param T[m] := <1> 500, <2> 350, <3> 150;
 
-subto tempoFresa: quantProd[1] + quantProd[2] + quantProd[3] <= 500;
+# lucro por produto
+param L[p] := <1> 30, <2> 12, <3> 15;
 
-subto tempoTorno: quantProd[1] + quantProd[2] <= 350;
+# tempo de produção
+param TP[pm] := <1, 1> 9, <1,2> 3, <1, 3> 5,
+                <2, 1> 5, <2,2> 4, <2, 3> 0,
+                <3, 1> 3, <3,2> 0, <3, 3> 2;
 
-subto tempoRetifica: quantProd[1] + quantProd[3] <= 150;
+# potencial vendas
+param V3 :=  20;
 
-subto vendaProd3: quantProd[3] <= 20;
+# quantidade de produtos produzir
+var X[p] integer >= 0; 
 
+maximize lucro :
+    sum <px> in p : L[px] * X[px] ;
+ 
+# max horas trabalhadas pelas máquinas
+subto c1: 
+      forall <mx> in m : 
+        sum <px> in p : TP[px, mx] * X[px] <= T[mx];
+
+# max produzido produto 3
+subto c2:
+    X[3] <= 20;
