@@ -1,19 +1,19 @@
-zimpl	v       0	quantCia1#1     	"quantCia1#1"
-zimpl	v       1	quantCia1#2     	"quantCia1#2"
-zimpl	v       2	quantCia1#3     	"quantCia1#3"
-zimpl	v       3	quantCia1#4     	"quantCia1#4"
-zimpl	v       4	quantCia2#1     	"quantCia2#1"
-zimpl	v       5	quantCia2#2     	"quantCia2#2"
-zimpl	v       6	quantCia2#3     	"quantCia2#3"
-zimpl	v       7	quantCia2#4     	"quantCia2#4"
-zimpl	v       8	quantCia3#1     	"quantCia3#1"
-zimpl	v       9	quantCia3#2     	"quantCia3#2"
-zimpl	v      10	quantCia3#3     	"quantCia3#3"
-zimpl	v      11	quantCia3#4     	"quantCia3#4"
-zimpl	c       0	limiteCombusti@0	"limiteCombustivelDistribuido_1"	0.0000000000000000e+000
-zimpl	c       1	limiteCombusti@1	"limiteCombustivelDistribuido_2"	0.0000000000000000e+000
-zimpl	c       2	limiteCombusti@2	"limiteCombustivelDistribuido_3"	0.0000000000000000e+000
-zimpl	c       3	minimoCombusti@3	"minimoCombustivel_1"	0.0000000000000000e+000
-zimpl	c       4	minimoCombusti@4	"minimoCombustivel_2"	0.0000000000000000e+000
-zimpl	c       5	minimoCombusti@5	"minimoCombustivel_3"	0.0000000000000000e+000
-zimpl	c       6	minimoCombusti@6	"minimoCombustivel_4"	0.0000000000000000e+000
+zimpl	v       0	X#1#1           	"X#1#1"
+zimpl	v       1	X#1#2           	"X#1#2"
+zimpl	v       2	X#1#3           	"X#1#3"
+zimpl	v       3	X#2#1           	"X#2#1"
+zimpl	v       4	X#2#2           	"X#2#2"
+zimpl	v       5	X#2#3           	"X#2#3"
+zimpl	v       6	X#3#1           	"X#3#1"
+zimpl	v       7	X#3#2           	"X#3#2"
+zimpl	v       8	X#3#3           	"X#3#3"
+zimpl	v       9	X#4#1           	"X#4#1"
+zimpl	v      10	X#4#2           	"X#4#2"
+zimpl	v      11	X#4#3           	"X#4#3"
+zimpl	c       0	c1_1            	"c1_1"	0.0000000000000000e+000
+zimpl	c       1	c1_2            	"c1_2"	0.0000000000000000e+000
+zimpl	c       2	c1_3            	"c1_3"	0.0000000000000000e+000
+zimpl	c       3	c2_1            	"c2_1"	0.0000000000000000e+000
+zimpl	c       4	c2_2            	"c2_2"	0.0000000000000000e+000
+zimpl	c       5	c2_3            	"c2_3"	0.0000000000000000e+000
+zimpl	c       6	c2_4            	"c2_4"	0.0000000000000000e+000
