@@ -1,30 +1,40 @@
-set tipoAviao := {1, 2, 3};
+# aviao: B-737, EB-190, Bandeirante
+set a := {1 to 3};
 
-# RJ, POA
-set destino := {1, 2};
+# destino das viagens: Rio, Porto Alegre
+set d := {1, 2};
 
-param custoViagemRJ[tipoAviao] := <1> 23, <2> 5, <3> 1.4;
-param custoViagemPOA[tipoAviao] := <1> 58, <2> 10, <3> 3.8;
+# destino * aviao
+set da := d * a;
 
-param cargaTransportada[destino] := <1> 150, <2> 100;
+# quantidade de aviões
+param Q[a] := <1> 8, <2> 15, <3> 12;
 
-param disponibilidadeAviao[tipoAviao] := <1> 8, <2> 15, <3> 12;
+# tonelagem dos aviões
+param T[a] := <1> 45, <2> 7, <3> 4;
 
-param tonelagemAvioes[tipoAviao] := <1> 45, <2> 7, <3> 4;
+# custos de transporte para cada destino conforme avião
+param DA[da] := 
+        <1,1> 23, <1,2>  5, <1,3> 1.4,
+        <2,1> 58, <2,2> 10, <2,3> 3.8;
 
-var quantAvioesRJ[tipoAviao] integer >= 0;
-var quantAvioesPOA[tipoAviao] integer >= 0;
+# carga transportada
+param C[d] := <1> 150, <2> 100;
+
+# quantidade de avioes enviadas para cada destino
+var X[da] integer >= 0;
 
 minimize custo : 
-    (sum <t> in tipoAviao : quantAvioesRJ[t] * custoViagemRJ[t]) +
-    (sum <t> in tipoAviao : quantAvioesPOA[t] * custoViagemPOA[t]);
+    sum <dx, ax> in da :  X[dx, ax] * DA[dx, ax];
 
-subto cargaTransportadaRJ :
-    sum <t> in tipoAviao : quantAvioesRJ[t] * tonelagemAvioes[t] >= cargaTransportada[1];
+# carga transportada deve ser igual a carga do destino
+subto c1 :
+     forall <dx> in d :
+        sum <ax> in a :
+            X[dx, ax] * T[ax] >= C[dx]; 
 
-subto cargaTransportadaPOA :
-    sum <t> in tipoAviao : quantAvioesPOA[t] * tonelagemAvioes[t] >= cargaTransportada[2];
-
-subto limiteAviao:
-    forall <t> in tipoAviao :
-        (quantAvioesRJ[t] + quantAvioesPOA[t]) <= disponibilidadeAviao[t];
+# quantidade de aviões limitada para as viagens
+subto c2:
+     forall <ax> in a :
+        sum <dx> in d :
+            X[dx, ax] <= Q[ax];

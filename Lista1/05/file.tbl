@@ -1,11 +1,11 @@
-zimpl	v       0	quantAvioesRJ#1 	"quantAvioesRJ#1"
-zimpl	v       1	quantAvioesRJ#2 	"quantAvioesRJ#2"
-zimpl	v       2	quantAvioesRJ#3 	"quantAvioesRJ#3"
-zimpl	v       3	quantAvioesPOA#1	"quantAvioesPOA#1"
-zimpl	v       4	quantAvioesPOA#2	"quantAvioesPOA#2"
-zimpl	v       5	quantAvioesPOA#3	"quantAvioesPOA#3"
-zimpl	c       0	cargaTransport@0	"cargaTransportadaRJ_1"	0.0000000000000000e+000
-zimpl	c       1	cargaTransport@1	"cargaTransportadaPOA_1"	0.0000000000000000e+000
-zimpl	c       2	limiteAviao_1   	"limiteAviao_1"	0.0000000000000000e+000
-zimpl	c       3	limiteAviao_2   	"limiteAviao_2"	0.0000000000000000e+000
-zimpl	c       4	limiteAviao_3   	"limiteAviao_3"	0.0000000000000000e+000
+zimpl	v       0	X#1#1           	"X#1#1"
+zimpl	v       1	X#1#2           	"X#1#2"
+zimpl	v       2	X#1#3           	"X#1#3"
+zimpl	v       3	X#2#1           	"X#2#1"
+zimpl	v       4	X#2#2           	"X#2#2"
+zimpl	v       5	X#2#3           	"X#2#3"
+zimpl	c       0	c1_1            	"c1_1"	0.0000000000000000e+000
+zimpl	c       1	c1_2            	"c1_2"	0.0000000000000000e+000
+zimpl	c       2	c2_1            	"c2_1"	0.0000000000000000e+000
+zimpl	c       3	c2_2            	"c2_2"	0.0000000000000000e+000
+zimpl	c       4	c2_3            	"c2_3"	0.0000000000000000e+000
