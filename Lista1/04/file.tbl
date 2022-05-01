@@ -1,5 +1,5 @@
-zimpl	v       0	quantidadeChap@0	"quantidadeChapaProduzir#1"
-zimpl	v       1	quantidadeChap@1	"quantidadeChapaProduzir#2"
-zimpl	v       2	quantidadeChap@2	"quantidadeChapaProduzir#3"
-zimpl	c       0	limiteMinutosP@0	"limiteMinutosPrensa_1"	0.0000000000000000e+000
-zimpl	c       1	minutosUsoEsma@1	"minutosUsoEsmaltagem_1"	0.0000000000000000e+000
+zimpl	v       0	X#1             	"X#1"
+zimpl	v       1	X#2             	"X#2"
+zimpl	v       2	X#3             	"X#3"
+zimpl	c       0	c1_1            	"c1_1"	0.0000000000000000e+000
+zimpl	c       1	c1_2            	"c1_2"	0.0000000000000000e+000
