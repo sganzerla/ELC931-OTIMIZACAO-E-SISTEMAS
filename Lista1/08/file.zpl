@@ -32,32 +32,42 @@ param Max[p] := <1> 10000, <2> 20000, <3> 20000, <4> 25000, <5> 20000, <6> 20000
 # producao maxima barris/dia1
 param Min[p] := <1> 5000, <2> 13000, <3> 15000, <4> 10000, <5> 10000, <6> 12000;
 
+# maximo de barris por dia
+param MAX_PROD := 100000;
+
+# minimo de barris comprado da arabia saudita
+param MIN_ARABIA := 10000;
+
 # quantidade de barril comprado dos paises de origem
-var X[o] >= 0;
+var Xc[o] >= 0;
 
 # quantidade de produtos produzidos
-var Y[p] >= 0;
-
-# maximo de barris por dia
-param M := 100000;
+var Xp[p] >= 0;
 
 
 maximize lucro :
-    (sum <px> in p : Y[px] * V[px]) -    
-    (sum <ox> in o : X[ox] * C[ox]);
+    (sum <px> in p : Xp[px] * V[px]) -    
+    (sum <ox> in o : Xc[ox] * C[ox]);
  
 #  producao maxima paises de origem
  subto c1:
-    forall <ox>in o :
-        X[ox] <= D[ox];
+    forall <ox> in o :
+        Xc[ox] <= D[ox];
 
-# producao maxima na refinaria
+# producao total maxima de barris na refinaria
 subto c2:
-    sum <px> in p : Y[px]  <= M;
+    sum <px> in p : Xp[px]  <= MAX_PROD;
 
-# producao minima e maxima na refinaria
+# producao minima e maxima na refinaria de cada produto
 subto c3:
     forall <px> in p :
-        Y[px] <= Max[px] and Y[px] >= Min[px];
+        Xp[px] <= Max[px] and Xp[px] >= Min[px];
 
+# compra minima da arabia saudita
+subto c4 :
+    Xc[2] >= MIN_ARABIA;
 
+# # balanceamento de componentes
+# subto c5 :
+#     forall <ox> in o :
+#         <px> in p : Xp[px] * OD[ox, px] = Xc[ox];

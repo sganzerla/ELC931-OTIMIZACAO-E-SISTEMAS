@@ -10,59 +10,63 @@
 \ param V[p] := <1> 2.1, <2> 3.5, <3> 3.3, <4> 3.1, <5> 2.5, <6> 2.8;
 \ param Max[p] := <1> 10000, <2> 20000, <3> 20000, <4> 25000, <5> 20000, <6> 20000;
 \ param Min[p] := <1> 5000, <2> 13000, <3> 15000, <4> 10000, <5> 10000, <6> 12000;
-\ var X[o] >= 0;
-\ var Y[p] >= 0;
-\ param M := 100000;
-\ maximize lucro :     (sum <px> in p : Y[px] * V[px]) -         (sum <ox> in o : X[ox] * C[ox]);
-\ subto c1:     forall <ox>in o :         X[ox] <= D[ox];
-\ subto c2:     sum <px> in p : Y[px]  <= M;
-\ subto c3:     forall <px> in p :         Y[px] <= Max[px] and Y[px] >= Min[px];
+\ param MAX_PROD := 100000;
+\ param MIN_ARABIA := 10000;
+\ var Xc[o] >= 0;
+\ var Xp[p] >= 0;
+\ maximize lucro :     (sum <px> in p : Xp[px] * V[px]) -         (sum <ox> in o : Xc[ox] * C[ox]);
+\ subto c1:     forall <ox> in o :         Xc[ox] <= D[ox];
+\ subto c2:     sum <px> in p : Xp[px]  <= MAX_PROD;
+\ subto c3:     forall <px> in p :         Xp[px] <= Max[px] and Xp[px] >= Min[px];
+\ subto c4 :     Xc[2] >= MIN_ARABIA;
 \Problem name: file
 Maximize
- lucro:  -3 X#1 -2.5 X#2 -3 X#3 +2.1 Y#1 +3.5 Y#2 +3.3 Y#3
-  +3.1 Y#4 +2.5 Y#5 +2.8 Y#6
+ lucro:  -3 Xc#1 -2.5 Xc#2 -3 Xc#3 +2.1 Xp#1 +3.5 Xp#2 +3.3 Xp#3
+  +3.1 Xp#4 +2.5 Xp#5 +2.8 Xp#6
 Subject to
  c1_1:
-  + X#1 <= 70000
+  + Xc#1 <= 70000
  c1_2:
-  + X#2 <= 100000
+  + Xc#2 <= 100000
  c1_3:
-  + X#3 <= 50000
+  + Xc#3 <= 50000
  c2_1:
-  + Y#6 + Y#5 + Y#4 + Y#3 + Y#2 + Y#1
+  + Xp#6 + Xp#5 + Xp#4 + Xp#3 + Xp#2 + Xp#1
   <= 100000
  c3_1:
-  + Y#1 <= 10000
+  + Xp#1 <= 10000
  c3_2:
-  + Y#1 >= 5000
+  + Xp#1 >= 5000
  c3_3:
-  + Y#2 <= 20000
+  + Xp#2 <= 20000
  c3_4:
-  + Y#2 >= 13000
+  + Xp#2 >= 13000
  c3_5:
-  + Y#3 <= 20000
+  + Xp#3 <= 20000
  c3_6:
-  + Y#3 >= 15000
+  + Xp#3 >= 15000
  c3_7:
-  + Y#4 <= 25000
+  + Xp#4 <= 25000
  c3_8:
-  + Y#4 >= 10000
+  + Xp#4 >= 10000
  c3_9:
-  + Y#5 <= 20000
+  + Xp#5 <= 20000
  c3_10:
-  + Y#5 >= 10000
+  + Xp#5 >= 10000
  c3_11:
-  + Y#6 <= 20000
+  + Xp#6 <= 20000
  c3_12:
-  + Y#6 >= 12000
+  + Xp#6 >= 12000
+ c4_1:
+  + Xc#2 >= 10000
 Bounds
- 0 <= X#1 <= +inf
- 0 <= X#2 <= +inf
- 0 <= X#3 <= +inf
- 0 <= Y#1 <= +inf
- 0 <= Y#2 <= +inf
- 0 <= Y#3 <= +inf
- 0 <= Y#4 <= +inf
- 0 <= Y#5 <= +inf
- 0 <= Y#6 <= +inf
+ 0 <= Xc#1 <= +inf
+ 0 <= Xc#2 <= +inf
+ 0 <= Xc#3 <= +inf
+ 0 <= Xp#1 <= +inf
+ 0 <= Xp#2 <= +inf
+ 0 <= Xp#3 <= +inf
+ 0 <= Xp#4 <= +inf
+ 0 <= Xp#5 <= +inf
+ 0 <= Xp#6 <= +inf
 End
