@@ -4,68 +4,55 @@
 
 ## Código ZIMPL  file.zpl
 
-    set subsidiaria := {1, 2, 3};
+    # subsidiarias : 1, 2, 3
+    set s := {1 to 3};
 
-    set projetos := {1 to 8};
+    # projetos
+    set p := {1 to 8};
 
+    # teto investimento por projeto
+    param T[p] := <1> 6, <2> 5, <3> 9, <4> 7, <5> 10, <6> 4, <7> 6, <8> 3;
 
-    set quantProjSub1 := {1, 2, 3};
-    set quantProjSub2 := {1, 2, 3};
-    set quantProjSub3 := {1, 2 };
+    # taxa de retorno por projeto
+    param R[p] := <1> 0.08, <2> 0.06, <3> 0.07, <4> 0.05, <5> 0.08, <6> 0.09, <7> 0.1, <8> 0.06;
 
-    param minInvestSub[subsidiaria] := <1> 3, <2> 5, <3> 8;
+    # investimento max 
+    param I := 30;
 
-    param projSub1[quantProjSub1] := <1> 1, <2> 2, <3> 3;
-    param projSub2[quantProjSub2] := <1> 3, <2> 4, <3> 5;
-    param projSub3[quantProjSub3] := <1> 6, <2> 7;
+    # minimo investido em cada uma
+    param M[s] := <1> 3, <2> 5, <3> 8;
 
-    param maxInvestSub1PorProj[quantProjSub1] := <1> 6, <2> 5, <3> 9;
-    param maxInvestSub2PorProj[quantProjSub2] := <1> 7, <2> 10, <3> 4;
-    param maxInvestSub3PorProj[quantProjSub3] := <1> 6, <2> 3;
+    # maximo investido sub-2
+    param M2 := 17; 
 
-    param retInvestSub1PorProj[quantProjSub1] := <1> 0.08, <2> 0.06, <3> 0.07;
-    param retInvestSub2PorProj[quantProjSub2] := <1> 0.05, <2> 0.08, <3> 0.09;
-    param retInvestSub3PorProj[quantProjSub3] := <1> 0.1, <2> 0.6;
-
-    param maxInvestSub2 := 17;
-
-    param totalInvest := 30;
-
-    var quantInvestPorProjSub1[quantProjSub1] >= 0;
-    var quantInvestPorProjSub2[quantProjSub2] >= 0;
-    var quantInvestPorProjSub3[quantProjSub3] >= 0;
+    # quantidade de investimento em cada projeto
+    var X[p] >= 0;
 
     maximize lucro : 
-        (sum <p> in quantProjSub1 : quantInvestPorProjSub1[p] * retInvestSub1PorProj[p]) +
-        (sum <p> in quantProjSub2 : quantInvestPorProjSub2[p] * retInvestSub2PorProj[p]) +
-        (sum <p> in quantProjSub3 : quantInvestPorProjSub3[p] * retInvestSub3PorProj[p]);
+        sum <px> in p : X[px] * R[px]; 
+
+    # limite investimento total
+    subto c1 :
+        sum <px> in p : X[px] <= I;
+
+    # restrição de investimento mínimo Filial 1
+    subto c2 :
+        sum <px> in p with px <= 3 : X[px] >= M[1];
+
+    # restrição de investimento mínimo Filial 2
+    subto c3 :
+    M2 >= sum <px> in p with px < 7 and px > 3 : X[px] >= M[2];
+
+    # restrição de investimento mínimo Filial 3
+    subto c4 :
+        sum <px> in p with px >= 7 : X[px] >= M[3];
+
+    # maximo investido em cada projeto
+    subto c5 :
+        forall <px> in p :
+            X[px] <= T[px];
 
 
-    subto limInvestTotal:
-        (sum <p> in quantProjSub1 : quantInvestPorProjSub1[p] ) +
-        (sum <p> in quantProjSub2 : quantInvestPorProjSub2[p] ) +
-        (sum <p> in quantProjSub3 : quantInvestPorProjSub3[p] ) <= totalInvest;
-
-    subto minInvestSub1: 
-        sum <p> in quantProjSub1 : quantInvestPorProjSub1[p] >= minInvestSub[1];
-    
-    subto minInvestSub2:
-        sum <p> in quantProjSub2 : quantInvestPorProjSub2[p] >= minInvestSub[2];
-
-    subto minInvestSub3:
-        sum <p> in quantProjSub3 : quantInvestPorProjSub3[p] >= minInvestSub[3];
-
-    subto limInvestPorProjSub1:
-        forall <p> in quantProjSub1 : quantInvestPorProjSub1[p] <= maxInvestSub1PorProj[p];
-    
-    subto limInvestPorProjSub2:
-        forall <p> in quantProjSub2 : quantInvestPorProjSub2[p] <= maxInvestSub2PorProj[p];
-
-    subto limInvestPorProjSub3:
-        forall <p> in quantProjSub3 : quantInvestPorProjSub3[p] <= maxInvestSub3PorProj[p];
-
-    subto limMaxInvestSub2:
-        sum <p> in quantProjSub2 : quantInvestPorProjSub2[p] <= maxInvestSub2;
 
 ## CLI ZIMPL
 
