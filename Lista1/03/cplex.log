@@ -46,3 +46,31 @@ Dual simplex - Optimal:  Objective =  2.3666666667e+05
 Solution time =    0.03 sec.  Iterations = 6 (3)
 Deterministic time = 0.02 ticks  (0.59 ticks/sec)
 
+
+Log started (V20.1.0.0) Sun May  1 01:17:31 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 1 rows and 0 columns.
+Reduced LP has 11 rows, 9 columns, and 45 nonzeros.
+Presolve time = 0.02 sec. (0.01 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =           719.999998
+Iteration:     4   Dual objective     =        243000.000000
+
+Dual simplex - Optimal:  Objective =  2.3200000000e+05
+Solution time =    0.02 sec.  Iterations = 8 (3)
+Deterministic time = 0.04 ticks  (2.35 ticks/sec)
+
+
+Variable Name           Solution Value
+X#1#1                       516.666667
+X#1#2                       177.777778
+X#2#2                       666.666667
+X#2#3                       166.666667
+X#3#3                       416.666667
+All other variables matching '*' are 0.
