@@ -1,43 +1,51 @@
-set fabricas := {1, 2};
+# fabrica: 1, 2
+set f := {1, 2};
 
-set distribuidores := {1, 2, 3, 4};
+# Distribuidores
+set d := {1 to 4};
 
-param capacProducao[fabricas] := <1> 80000, <2> 65000;
-param demandaDistribuidor[distribuidores] := <1> 75000, <2> 20000, <3> 30000, <4> 40000; # valor distribuidor 4 colocado para teste
+set fd := f * d;
 
-param custoTransporteFabrica1[distribuidores] := <1> 50, <2> 10, <3> 70, <4> 30;
-param custoTransporteFabrica2[distribuidores] := <1> 60, <2> 40, <3> 60, <4> 20;
+# Capacidade de producao maxima 
+param F[f] := <1> 80000, <2> 65000;
 
-param taxaProdutoNaoEntregue[distribuidores] := <1> 0.5, <2> 0.3, <3> 0.20, <4> 0.0;
+# Demanda do distribuidor
+param D[d] := <1> 75000, <2> 20000, <3> 30000, <4> 50000; # valor distribuidor 4 colocado para teste
 
-var produtosFabrica1[distribuidores] >= 0;
-var produtosFabrica2[distribuidores] >= 0; 
+# Custo de transporte de cada produto das filiais ate os respectivos distribuidores
+param C[fd] := 
+                <1,1> 50, <1,2> 10, <1,3> 70, <1,4> 30,
+                <2,1> 60, <2,2> 40, <2,3> 60, <2,4> 20;
+
+# Taxa por produto nao entregue
+param T[d] := <1> 0.5, <2> 0.3, <3> 0.2, <4> 0.0;
+
+# quantidade de produtos entregues por cada filial a cada distribuidor
+var Xe[fd] >= 0;
+# quantidade de produtos nao entregues a cada distribuidor
+var Xne[d] >= 0;
  
-do print distribuidores;
-do print "Cardinality of distribuidores:", card(distribuidores);
-
-
 minimize custo :
+        sum <fx, dx> in fd : Xe[fx, dx] * C[fx, dx] +
+        sum <dx> in d : Xne[dx] * T[dx];
 
-        sum <d> in distribuidores: 
-                (produtosFabrica1[d] * custoTransporteFabrica1[d] + produtosFabrica2[d] * custoTransporteFabrica2[d] ) 
-        #         +
-        # sum <d> in distribuidores :
-        #         if ((demandaDistribuidor[d] - produtosFabrica1[d] + produtosFabrica2[d]) <= 0) then
-        #                 0
-        #         else
-        #                 ((demandaDistribuidor[d] - produtosFabrica1[d] + produtosFabrica2[d]) * taxaProdutoNaoEntregue[d])
-        #         end
-                ;
+# limite Fabricacao maximo das filiais
+subto c1 :
+        forall <fx> in f :
+                sum <fx, dx> in fd : Xe[fx, dx] <= F[fx];
 
-subto limiteProducaoFabrica1:
-        sum <d> in distribuidores:
-                produtosFabrica1[d] <= capacProducao[1];
+# demanda do distribuidor 4 deve ser atendida somando-se as duas filiais
+subto c2 : 
+        sum <fx> in f : Xe[fx, 4] >= D[4];
 
-subto limiteProducaoFabrica2:
-        sum <d> in distribuidores:
-                produtosFabrica2[d] <= capacProducao[2];
+# distribuicao a cada filial maior ou igual a demanda menos variavel de folga
+subto c3 :
+        forall <dx> in d with dx < 4 :
+                sum <fx, dx> in fd :
+                        Xe[fx, dx] >= D[dx] - Xne[dx];
 
-subto demandaDistribuidor4:
-        produtosFabrica1[4] + produtosFabrica2[4] == demandaDistribuidor[4];
-        
+# demanda de cada filial
+subto c4 :
+        forall <dx> in d :
+                sum <fx, dx> in fd : 
+                        Xe[fx, dx] <= D[dx];

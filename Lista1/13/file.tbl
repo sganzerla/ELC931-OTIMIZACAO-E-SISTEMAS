@@ -1,11 +1,21 @@
-zimpl	v       0	produtosFabric@0	"produtosFabrica1#1"
-zimpl	v       1	produtosFabric@1	"produtosFabrica1#2"
-zimpl	v       2	produtosFabric@2	"produtosFabrica1#3"
-zimpl	v       3	produtosFabric@3	"produtosFabrica1#4"
-zimpl	v       4	produtosFabric@4	"produtosFabrica2#1"
-zimpl	v       5	produtosFabric@5	"produtosFabrica2#2"
-zimpl	v       6	produtosFabric@6	"produtosFabrica2#3"
-zimpl	v       7	produtosFabric@7	"produtosFabrica2#4"
-zimpl	c       0	limiteProducao@0	"limiteProducaoFabrica1_1"	0.0000000000000000e+000
-zimpl	c       1	limiteProducao@1	"limiteProducaoFabrica2_1"	0.0000000000000000e+000
-zimpl	c       2	demandaDistrib@2	"demandaDistribuidor4_1"	0.0000000000000000e+000
+zimpl	v       0	Xe#1#1          	"Xe#1#1"
+zimpl	v       1	Xe#1#2          	"Xe#1#2"
+zimpl	v       2	Xe#1#3          	"Xe#1#3"
+zimpl	v       3	Xe#1#4          	"Xe#1#4"
+zimpl	v       4	Xe#2#1          	"Xe#2#1"
+zimpl	v       5	Xe#2#2          	"Xe#2#2"
+zimpl	v       6	Xe#2#3          	"Xe#2#3"
+zimpl	v       7	Xe#2#4          	"Xe#2#4"
+zimpl	v       8	Xne#1           	"Xne#1"
+zimpl	v       9	Xne#2           	"Xne#2"
+zimpl	v      10	Xne#3           	"Xne#3"
+zimpl	c       0	c1_1            	"c1_1"	0.0000000000000000e+000
+zimpl	c       1	c1_2            	"c1_2"	0.0000000000000000e+000
+zimpl	c       2	c2_1            	"c2_1"	0.0000000000000000e+000
+zimpl	c       3	c3_1            	"c3_1"	0.0000000000000000e+000
+zimpl	c       4	c3_2            	"c3_2"	0.0000000000000000e+000
+zimpl	c       5	c3_3            	"c3_3"	0.0000000000000000e+000
+zimpl	c       6	c4_1            	"c4_1"	0.0000000000000000e+000
+zimpl	c       7	c4_2            	"c4_2"	0.0000000000000000e+000
+zimpl	c       8	c4_3            	"c4_3"	0.0000000000000000e+000
+zimpl	c       9	c4_4            	"c4_4"	0.0000000000000000e+000

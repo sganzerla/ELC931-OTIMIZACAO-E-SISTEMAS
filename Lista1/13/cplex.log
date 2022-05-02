@@ -137,3 +137,1094 @@ Deterministic time = 0.00 ticks  (4.16 ticks/sec)
 Variable Name           Solution Value
 produtosFabric@7          40000.000000
 All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 16:22:47 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 0.000000 after 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.00 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.00 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  0.0000000000e+00
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.00 ticks  (1.42 ticks/sec)
+
+
+Incumbent solution
+All variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 16:23:17 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 0.000000 after 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.00 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.00 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  0.0000000000e+00
+Solution time =    0.02 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.00 ticks  (0.09 ticks/sec)
+
+
+Log started (V20.1.0.0) Sun May  1 17:36:29 2022
+
+
+Log started (V20.1.0.0) Sun May  1 17:37:13 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 0.000000 after 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.00 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.00 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  0.0000000000e+00
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.00 ticks  (1.42 ticks/sec)
+
+
+Log started (V20.1.0.0) Sun May  1 17:38:09 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 0.000000 after 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.00 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.00 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  0.0000000000e+00
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.00 ticks  (1.42 ticks/sec)
+
+
+Incumbent solution
+All variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 17:50:41 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+MIP Presolve eliminated 4 rows and 11 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.01 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.01 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  2.5000000000e+06
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.01 ticks  (5.45 ticks/sec)
+
+
+Log started (V20.1.0.0) Sun May  1 18:01:51 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c2_1' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.00 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.00 ticks)
+
+
+MIP - Integer infeasible.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.00 ticks  (4.00 ticks/sec)
+
+
+Log started (V20.1.0.0) Sun May  1 18:15:03 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c2_1' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.01 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.01 ticks)
+
+
+MIP - Integer infeasible.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.01 ticks  (5.22 ticks/sec)
+
+No integer feasible solution exists.
+
+Log started (V20.1.0.0) Sun May  1 18:18:09 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c2_1' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.01 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.01 ticks)
+
+
+MIP - Integer infeasible.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.01 ticks  (5.24 ticks/sec)
+
+
+Log started (V20.1.0.0) Sun May  1 18:19:59 2022
+
+
+Log started (V20.1.0.0) Sun May  1 18:20:03 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.02 sec. (0.00 ticks)
+No integer feasible solution exists.
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c2_1' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.01 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.01 ticks)
+
+
+MIP - Integer infeasible.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time =    0.02 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.01 ticks  (0.35 ticks/sec)
+
+No integer feasible solution exists.
+
+Log started (V20.1.0.0) Sun May  1 18:20:29 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Implied bounds make row 'c2_1' infeasible.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (3.33 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 18:20:59 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Implied bounds make row 'c2_1' infeasible.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.02 sec.
+Deterministic time = 0.00 ticks  (0.22 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 18:31:41 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Implied bounds make row 'c2_1' infeasible.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (3.04 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 18:33:45 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Implied bounds make row 'c2_1' infeasible.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (3.04 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 18:34:23 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Implied bounds make row 'c3_1' infeasible.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (3.04 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 18:40:26 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.02 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Implied bounds make row 'c4_1' infeasible.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (3.09 ticks/sec)
+No solution exists.
+
+Log started (V20.1.0.0) Sun May  1 18:43:41 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.02 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Infeasibility row 'c4_4':  0 <= -50000.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (1.91 ticks/sec)
+No solution exists.
+
+Log started (V20.1.0.0) Sun May  1 18:57:34 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c4_4' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (1.89 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 19:01:44 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 0 columns.
+Reduced LP has 6 rows, 11 columns, and 25 nonzeros.
+Presolve time = 0.02 sec. (0.01 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =       2537500.000000
+
+Dual simplex - Optimal:  Objective =  3.1435000000e+06
+Solution time =    0.03 sec.  Iterations = 4 (0)
+Deterministic time = 0.01 ticks  (0.44 ticks/sec)
+
+
+Variable Name           Solution Value
+Xe#1#2                    30000.000000
+Xe#1#4                    50000.000000
+Xe#2#4                    65000.000000
+Xne#1                     75000.000000
+Xne#3                     30000.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 19:15:30 2022
+
+
+Log started (V20.1.0.0) Sun May  1 19:15:35 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 0 columns.
+Reduced LP has 6 rows, 11 columns, and 25 nonzeros.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =       2537500.000000
+
+Dual simplex - Optimal:  Objective =  3.1435000000e+06
+Solution time =    0.00 sec.  Iterations = 4 (0)
+Deterministic time = 0.01 ticks  (14.11 ticks/sec)
+
+
+Variable Name           Solution Value
+Xe#1#2                    30000.000000
+Xe#1#4                    50000.000000
+Xe#2#4                    65000.000000
+Xne#1                     75000.000000
+Xne#3                     30000.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 19:19:13 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c4_4' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (2.05 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 19:24:09 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 3 rows and 0 columns.
+Reduced LP has 6 rows, 11 columns, and 25 nonzeros.
+Presolve time = 0.00 sec. (0.01 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =       2987500.000000
+
+Dual simplex - Optimal:  Objective =  3.1435000000e+06
+Solution time =    0.00 sec.  Iterations = 3 (0)
+Deterministic time = 0.02 ticks  (16.34 ticks/sec)
+
+
+Variable Name           Solution Value
+Xe#1#2                    30000.000000
+Xe#1#4                    50000.000000
+Xe#2#4                    65000.000000
+Xne#1                     75000.000000
+Xne#3                     30000.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 19:24:45 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 4 rows and 0 columns.
+Reduced LP has 6 rows, 11 columns, and 25 nonzeros.
+Presolve time = 0.00 sec. (0.01 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =       3049500.000000
+
+Dual simplex - Optimal:  Objective =  3.3435000000e+06
+Solution time =    0.00 sec.  Iterations = 3 (0)
+Deterministic time = 0.02 ticks  (17.57 ticks/sec)
+
+
+Variable Name           Solution Value
+Xe#1#2                    20000.000000
+Xe#1#4                    60000.000000
+Xe#2#4                    65000.000000
+Xne#1                     75000.000000
+Xne#3                     30000.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 19:25:48 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c4_4' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (2.05 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 19:26:05 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 5 rows and 0 columns.
+Reduced LP has 6 rows, 11 columns, and 25 nonzeros.
+Presolve time = 0.00 sec. (0.01 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =       3292000.000000
+
+Dual simplex - Optimal:  Objective =  3.3435000000e+06
+Solution time =    0.00 sec.  Iterations = 2 (0)
+Deterministic time = 0.02 ticks  (18.33 ticks/sec)
+
+
+Variable Name           Solution Value
+Xe#1#2                    20000.000000
+Xe#1#4                    60000.000000
+Xe#2#4                    65000.000000
+Xne#1                     75000.000000
+Xne#3                     30000.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 19:26:55 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c4_4' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (2.05 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 19:31:50 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 5 rows and 0 columns.
+Reduced LP has 6 rows, 11 columns, and 25 nonzeros.
+Presolve time = 0.02 sec. (0.01 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =       2680000.000000
+
+Dual simplex - Optimal:  Objective =  3.3435000000e+06
+Solution time =    0.02 sec.  Iterations = 3 (0)
+Deterministic time = 0.02 ticks  (1.26 ticks/sec)
+
+
+Variable Name           Solution Value
+Xe#1#2                    20000.000000
+Xe#1#4                    60000.000000
+Xe#2#4                    65000.000000
+Xne#1                     75000.000000
+Xne#3                     30000.000000
+All other variables matching '*' are 0.
+
+Variable Name           Solution Value
+Xe#1#2                    20000.000000
+Xe#1#4                    60000.000000
+Xe#2#4                    65000.000000
+Xne#1                     75000.000000
+Xne#3                     30000.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 19:37:11 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.02 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c4_4' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (2.05 ticks/sec)
+No solution exists.
+
+Log started (V20.1.0.0) Sun May  1 19:37:32 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c4_4' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (2.05 ticks/sec)
+No solution exists.
+
+Log started (V20.1.0.0) Sun May  1 19:38:02 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c4_4' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (2.05 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 19:38:24 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c4_4' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (2.05 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 19:41:26 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c1_2' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (1.99 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 19:42:24 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.02 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c4_4' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (2.05 ticks/sec)
+No solution exists.
+
+Log started (V20.1.0.0) Sun May  1 19:49:12 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c1_2' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (2.34 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 19:49:42 2022
+
+
+Log started (V20.1.0.0) Sun May  1 19:49:46 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c4_4' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (2.05 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 19:50:15 2022
+
+
+Log started (V20.1.0.0) Sun May  1 19:50:18 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 5 rows and 0 columns.
+Reduced LP has 6 rows, 11 columns, and 25 nonzeros.
+Presolve time = 0.00 sec. (0.01 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =       2374000.000000
+
+Dual simplex - Optimal:  Objective =  3.3435000000e+06
+Solution time =    0.00 sec.  Iterations = 3 (0)
+Deterministic time = 0.02 ticks  (18.83 ticks/sec)
+
+
+Variable Name           Solution Value
+Xe#1#2                    20000.000000
+Xe#1#4                    60000.000000
+Xe#2#4                    65000.000000
+Xne#1                     75000.000000
+Xne#3                     30000.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 19:52:48 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c1_2' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.02 sec.
+Deterministic time = 0.00 ticks  (0.11 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 19:53:40 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 5 rows and 0 columns.
+Reduced LP has 6 rows, 11 columns, and 25 nonzeros.
+Presolve time = 0.00 sec. (0.01 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =          2680.000000
+
+Dual simplex - Optimal:  Objective =  3.3435000000e+03
+Solution time =    0.00 sec.  Iterations = 3 (0)
+Deterministic time = 0.02 ticks  (18.83 ticks/sec)
+
+
+Variable Name           Solution Value
+Xe#1#2                       20.000000
+Xe#1#4                       60.000000
+Xe#2#4                       65.000000
+Xne#1                        75.000000
+Xne#3                        30.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 19:59:23 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Infeasibility row 'c4_4':  0 <= -40.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (2.07 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 19:59:36 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 11 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Dual simplex - Optimal:  Objective =  2.0495000000e+03
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.01 ticks  (9.26 ticks/sec)
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 11 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Dual simplex - Optimal:  Objective =  2.0495000000e+03
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.01 ticks  (9.26 ticks/sec)
+
+
+Log started (V20.1.0.0) Sun May  1 20:02:31 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 5 rows and 0 columns.
+Reduced LP has 6 rows, 11 columns, and 25 nonzeros.
+Presolve time = 0.02 sec. (0.01 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =          2680.000000
+
+Dual simplex - Optimal:  Objective =  3.3435000000e+03
+Solution time =    0.02 sec.  Iterations = 3 (0)
+Deterministic time = 0.02 ticks  (1.26 ticks/sec)
+
+
+Variable Name           Solution Value
+Xe#1#2                       20.000000
+Xe#1#4                       60.000000
+Xe#2#4                       65.000000
+Xne#1                        75.000000
+Xne#3                        30.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 20:03:14 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c4_4' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (2.05 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 20:10:22 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c1_1' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (1.75 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 20:10:48 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c4_4' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (1.80 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 20:13:35 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c4_4' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (1.89 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 20:24:43 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c4_4' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (1.89 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 20:42:06 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c4_4' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.02 sec.
+Deterministic time = 0.00 ticks  (0.12 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 20:44:17 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 3 rows and 0 columns.
+Reduced LP has 8 rows, 11 columns, and 29 nonzeros.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =          2037.500000
+
+Dual simplex - Optimal:  Objective =  3.3435000000e+03
+Solution time =    0.00 sec.  Iterations = 5 (0)
+Deterministic time = 0.02 ticks  (18.84 ticks/sec)
+
+
+Log started (V20.1.0.0) Sun May  1 20:46:21 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 11 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Dual simplex - Optimal:  Objective =  2.0495000000e+03
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.01 ticks  (8.69 ticks/sec)
+
+
+Variable Name           Solution Value
+Xe#1#4                       40.000000
+Xe#2#4                       40.000000
+Xne#1                        75.000000
+Xne#2                        20.000000
+Xne#3                        30.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 20:46:39 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Infeasibility row 'c4_4':  0 <= -40.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (1.91 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 20:49:33 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.02 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c4_4' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (1.89 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 20:50:19 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c4_4' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.01 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.01 ticks)
+
+
+MIP - Integer infeasible.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.01 ticks  (5.41 ticks/sec)
+
+No integer feasible solution exists.
+
+Log started (V20.1.0.0) Sun May  1 20:54:52 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c4_4' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.01 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.01 ticks)
+
+
+MIP - Integer infeasible.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time =    0.02 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.01 ticks  (0.36 ticks/sec)
+
+
+Log started (V20.1.0.0) Sun May  1 20:59:19 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 1 rows and 0 columns.
+Aggregator did 1 substitutions.
+Reduced LP has 9 rows, 10 columns, and 29 nonzeros.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =          1650.000000
+
+Dual simplex - Optimal:  Objective =  6.3000000000e+03
+Solution time =    0.00 sec.  Iterations = 6 (0)
+Deterministic time = 0.02 ticks  (22.02 ticks/sec)
+
+
+Variable Name           Solution Value
+Xe#1#1                       60.000000
+Xe#1#2                       20.000000
+Xe#2#1                       15.000000
+Xe#2#3                       30.000000
+Xe#2#4                       20.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 21:00:10 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 11 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Dual simplex - Optimal:  Objective =  4.4950000000e+02
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.01 ticks  (9.47 ticks/sec)
+
+
+Variable Name           Solution Value
+Xe#2#4                       20.000000
+Xne#1                        75.000000
+Xne#2                        20.000000
+Xne#3                        30.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 21:01:57 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 11 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Dual simplex - Optimal:  Objective =  1.0495000000e+03
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.01 ticks  (9.47 ticks/sec)
+
+
+Variable Name           Solution Value
+Xe#2#4                       50.000000
+Xne#1                        75.000000
+Xne#2                        20.000000
+Xne#3                        30.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 21:03:21 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c2_1' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (3.68 ticks/sec)
+No solution exists.
+
+Log started (V20.1.0.0) Sun May  1 21:03:59 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 11 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Dual simplex - Optimal:  Objective =  1.0495000000e+06
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.01 ticks  (9.47 ticks/sec)
+
+
+Variable Name           Solution Value
+Xe#2#4                    50000.000000
+Xne#1                     75000.000000
+Xne#2                     20000.000000
+Xne#3                     30000.000000
+All other variables matching '*' are 0.
