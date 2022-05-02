@@ -4,48 +4,57 @@
 
 ## Código ZIMPL  file.zpl
 
-    # soja, milho, cana
-    set ingredientes := {1, 2, 3};
+    # Ingredientes: soja, milho, cana
+    set i := {1 to 3};
 
-    # calcio, proteina, carboidratos
-    set nutrientes := {1, 2, 3};
+    # Nutrientes: calcio, proteina, carboidratos
+    set n := {1 to 3};
 
-    param perceNutrSoja[nutrientes] := <1> 0.002, <2> 0.5, <3> 0.08;
-    param perceNutrMilho[ingredientes] := <1> 0.01, <2> 0.09, <3> 0.02;
-    param perceNutrCana[ingredientes] := <1> 0.03, <2> 0.0, <3> 0.02;
+    # nutriente * ingrediente 
+    set ni := n * i;
 
-    param custoIngredKg[ingredientes] := <1> 15, <2> 20, <3> 8;
+    # restrições: minimo e maximas
+    set r := {1, 2};
 
+    set rn :=  r * n;
 
-    param minimoFabricadoKg := 1000;
+    param RN[rn] := 
+            <1, 1> 0.008, <1, 2> 0.22, <1, 3> 0, #MIN
+            <2, 1> 0.012, <2, 2> 0,    <2, 3> 0.2; #MAX
 
-    var quantNutrSojaKg[nutrientes] >= 0;
-    var quantNutrMilhoKg[ingredientes] >= 0;
-    var quantNutrCanaKg[ingredientes] >= 0;
+    # percentual de nutriente em cada ingrediente
+    param NI[ni] := 
+            <1, 1> 0.002, <1, 2> 0.01,  <1, 3> 0.03,
+            <2, 1> 0.50,  <2, 2> 0.09,  <2, 3> 0,
+            <3, 1> 0.008, <3, 2> 0.02,  <3, 3> 0.02;
 
-    minimize custo : 
-        (sum <n> in nutrientes : quantNutrSojaKg[n] * custoIngredKg[n]) +
-        (sum <n> in nutrientes : quantNutrMilhoKg[n] * custoIngredKg[n]) +
-        (sum <n> in nutrientes : quantNutrCanaKg[n] * custoIngredKg[n]);
+    # custo do kg
+    param C[i] := <1> 15, <2> 20, <3> 8;
 
-    subto minimoProduzido :
-        (sum <n> in nutrientes : quantNutrSojaKg[n] * perceNutrSoja[n]) +
-        (sum <n> in nutrientes : quantNutrMilhoKg[n] * perceNutrMilho[n]) +
-        (sum <n> in nutrientes : quantNutrCanaKg[n] * perceNutrCana[n]) >= minimoFabricadoKg;
+    # minimio de producao
+    param MIN_KG := 1000;
 
-    subto maximoCalcio :
-        quantNutrSojaKg[1] * perceNutrSoja[1] + quantNutrMilhoKg[1] * perceNutrMilho[1] + quantNutrCanaKg[1] * perceNutrCana[1] <= 0.012;
+    # quantidade de cada ingrediente em kg
+    var Xi[i] >= 0;
 
-    subto minimoCalcio :
-        quantNutrSojaKg[1] * perceNutrSoja[1] + quantNutrMilhoKg[1] * perceNutrMilho[1] + quantNutrCanaKg[1] * perceNutrCana[1] >= 0.008;
+    minimize custo:
+            sum <ix> in i: Xi[ix] * C[ix];
 
-    subto minimoProteina :
-        quantNutrSojaKg[2] * perceNutrSoja[2] + quantNutrMilhoKg[2] * perceNutrMilho[2] + quantNutrCanaKg[2] * perceNutrCana[2] >= 0.22;
+    # quantidade mínima dos ingredientes
+    subto c1 :
+            sum <ix> in i: Xi[ix] >= MIN_KG;
 
-    subto maximoCarboidrato :
-        quantNutrSojaKg[3] * perceNutrSoja[3] + quantNutrMilhoKg[3] * perceNutrMilho[3] + quantNutrCanaKg[3] * perceNutrCana[3] <= 0.2;
+    # quantidade minima de cada nutriente
+    subto c2 :
+            forall <nx> in n :
+            sum <ix> in i with ix < 3 : Xi[ix] * NI[nx, ix] >= RN[1, nx] ;
+    
+    #  quantidade maxima de cada nutriente
+    subto c3 :
+            forall <nx> in n :
+            sum <ix> in i with ix != 2 : Xi[ix] * NI[nx, ix] <= RN[2, nx] ;
 
-    ## CLI ZIMPL
+## CLI ZIMPL
 
 Comandos para compilar arquivo *.zpl:
 

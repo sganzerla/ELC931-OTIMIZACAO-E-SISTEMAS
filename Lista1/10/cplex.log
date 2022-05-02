@@ -19,3 +19,643 @@ Variable Name           Solution Value
 quantNutrSojaK@1           1999.984000
 quantNutrCanaK@6              0.266667
 All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 11:42:52 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 4 rows and 3 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Dual simplex - Optimal:  Objective =  8.0020000000e+03
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.00 ticks  (3.37 ticks/sec)
+
+
+Variable Name           Solution Value
+X#1                           0.285714
+X#3                         999.714286
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 11:51:37 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 4 rows and 3 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Dual simplex - Optimal:  Objective =  8.0020000000e+03
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.00 ticks  (3.37 ticks/sec)
+
+
+Variable Name           Solution Value
+X#1                           0.285714
+X#3                         999.714286
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 11:53:26 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Bound infeasibility column 'X#1'.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (0.51 ticks/sec)
+No solution exists.
+
+Log started (V20.1.0.0) Sun May  1 12:02:30 2022
+
+No problem exists.
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Bound infeasibility column 'X#1'.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (0.00 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (0.00 ticks)
+
+
+MIP - Integer infeasible.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time =    0.02 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.00 ticks  (0.11 ticks/sec)
+
+
+Log started (V20.1.0.0) Sun May  1 12:09:48 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Bound infeasibility column 'X#1'.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.00 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.00 ticks)
+
+
+MIP - Integer infeasible.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.00 ticks  (1.75 ticks/sec)
+
+No integer feasible solution exists.
+
+Log started (V20.1.0.0) Sun May  1 12:12:17 2022
+
+
+Log started (V20.1.0.0) Sun May  1 12:12:23 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Bound infeasibility column 'X#1'.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.00 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.00 ticks)
+
+
+MIP - Integer infeasible.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.00 ticks  (1.75 ticks/sec)
+
+
+Log started (V20.1.0.0) Sun May  1 12:12:42 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Infeasibility row 'c1_1':  0 >= 1000.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.00 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.00 ticks)
+
+
+MIP - Integer infeasible.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.00 ticks  (1.71 ticks/sec)
+
+
+Log started (V20.1.0.0) Sun May  1 12:13:33 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Infeasibility row 'c1_1':  0 >= 1000.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.00 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.00 ticks)
+
+
+MIP - Integer infeasible.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time =    0.02 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.00 ticks  (0.11 ticks/sec)
+
+
+Log started (V20.1.0.0) Sun May  1 12:16:26 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c1_1' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.00 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.00 ticks)
+
+
+MIP - Integer infeasible.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.00 ticks  (2.18 ticks/sec)
+
+
+Log started (V20.1.0.0) Sun May  1 12:17:25 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c1_1' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.00 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.00 ticks)
+
+
+MIP - Integer infeasible.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.00 ticks  (2.18 ticks/sec)
+
+
+Log started (V20.1.0.0) Sun May  1 12:18:57 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c1_1' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.00 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.00 ticks)
+
+
+MIP - Integer infeasible.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.00 ticks  (2.64 ticks/sec)
+
+
+Log started (V20.1.0.0) Sun May  1 13:25:27 2022
+
+
+Log started (V20.1.0.0) Sun May  1 13:48:57 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c3_2' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.00 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.00 ticks)
+
+
+MIP - Integer infeasible.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.00 ticks  (2.49 ticks/sec)
+
+
+Log started (V20.1.0.0) Sun May  1 13:49:20 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 15000.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 2 rows and 0 columns.
+MIP Presolve modified 1 coefficients.
+Reduced MIP has 2 rows, 3 columns, and 5 nonzeros.
+Reduced MIP has 0 binaries, 3 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (0.00 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 2 rows, 3 columns, and 5 nonzeros.
+Reduced MIP has 0 binaries, 3 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.00 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 0.00 sec. (0.00 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        15000.0000       15.0000            99.90%
+*     0+    0                        14979.0000       15.0000            99.90%
+*     0     0      integral     0     8007.0000     8007.0000        1    0.00%
+Elapsed time = 0.03 sec. (0.01 ticks, tree = 0.00 MB, solutions = 3)
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (0.01 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.03 sec. (0.01 ticks)
+
+Solution pool: 3 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  8.0070000000e+03
+Solution time =    0.05 sec.  Iterations = 1  Nodes = 0
+Deterministic time = 0.01 ticks  (0.29 ticks/sec)
+
+
+Log started (V20.1.0.0) Sun May  1 13:49:58 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 8000.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 4 rows and 3 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.00 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.00 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  8.0000000000e+03
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.00 ticks  (3.62 ticks/sec)
+
+
+Log started (V20.1.0.0) Sun May  1 14:02:58 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 15000.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 4 rows and 3 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.00 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.00 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  8.0070000000e+03
+Solution time =    0.02 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.00 ticks  (0.29 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+X#1                           1.000000
+X#3                         999.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 14:04:00 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 15020.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 4 rows and 3 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.00 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.00 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  8.0120000000e+03
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.00 ticks  (4.25 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+X#2                           1.000000
+X#3                         999.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 14:09:10 2022
+
+No problem exists.
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 15000.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 4 rows and 3 columns.
+MIP Presolve modified 6 coefficients.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.01 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.01 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  8.0070000000e+03
+Solution time =    0.02 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.01 ticks  (0.37 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+X#1                           1.000000
+X#3                         999.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 14:22:26 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Found incumbent of value 15000.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 1 rows and 1 columns.
+MIP Presolve modified 1 coefficients.
+Reduced MIP has 2 rows, 2 columns, and 4 nonzeros.
+Reduced MIP has 0 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 2 rows and 2 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.01 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.01 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  8.0000000000e+03
+Solution time =    0.02 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.01 ticks  (0.52 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+X#3                        1000.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 14:25:10 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Row 'c1_1' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.00 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.00 ticks)
+
+
+MIP - Integer infeasible.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
+Deterministic time = 0.00 ticks  (2.27 ticks/sec)
+
+No integer feasible solution exists.
+
+Log started (V20.1.0.0) Sun May  1 14:27:46 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.02 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Infeasibility row 'c1_1':  0 >= 1000.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (0.85 ticks/sec)
+No solution exists.
+
+Log started (V20.1.0.0) Sun May  1 14:28:32 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Infeasibility row 'c1_1':  0 >= 1500.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (0.85 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 14:29:02 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Infeasibility row 'c1_1':  0 >= 500.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Log started (V20.1.0.0) Sun May  1 14:29:25 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Infeasibility row 'c1_1':  0 >= 700.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (0.85 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 14:30:03 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Infeasibility row 'c2_1':  0 >= 0.008.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Log started (V20.1.0.0) Sun May  1 14:31:37 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Infeasibility row 'c2_1':  0 >= 0.08.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (0.74 ticks/sec)
+
+Log started (V20.1.0.0) Sun May  1 23:07:10 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 7 rows and 3 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Dual simplex - Optimal:  Objective =  2.0584983200e+04
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.00 ticks  (4.99 ticks/sec)
+
+
+Variable Name           Solution Value
+Xi#2                        999.600000
+Xi#3                          0.400000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun May  1 23:10:43 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 7 rows and 3 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Dual simplex - Optimal:  Objective =  1.9995200000e+04
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.00 ticks  (4.99 ticks/sec)
+
+
+Variable Name           Solution Value
+Xi#2                        999.600000
+Xi#3                          0.400000
+All other variables matching '*' are 0.
