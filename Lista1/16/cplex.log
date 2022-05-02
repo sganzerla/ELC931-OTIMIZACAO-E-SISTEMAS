@@ -327,3 +327,168 @@ Solution time =    0.00 sec.  Iterations = 0  Nodes = 0 (1)
 Deterministic time = 0.01 ticks  (11.98 ticks/sec)
 
 No integer feasible solution exists.
+
+Log started (V20.1.0.0) Mon May  2 00:13:48 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 30 rows and 13 columns.
+Aggregator did 2 substitutions.
+Reduced LP has 9 rows, 16 columns, and 32 nonzeros.
+Presolve time = 0.00 sec. (0.03 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.600000
+Iteration:     6   Dual objective     =           299.200000
+
+Dual simplex - Infeasible:  Objective =  3.3350000000e+02
+Solution time =    0.00 sec.  Iterations = 10 (5)
+Infeasible variable = slack c4_2
+Deterministic time = 0.06 ticks  (56.73 ticks/sec)
+
+
+Variable Name           Solution Value
+X#1#1                         9.000000
+X#1#3                        14.000000
+X#1#4                       -15.000000**
+X#2#2                         6.000000
+X#2#5                         6.000000
+X#3#1                         4.000000
+X#3#2                         8.000000
+X#3#3                        -8.000000**
+X#3#4                         4.000000
+X#4#1                        -2.000000**
+X#4#3                         5.000000
+X#4#4                         5.000000
+X#5#1                         3.000000
+X#5#3                         3.000000
+X#5#5                         1.000000
+X#6#4                        20.000000
+X#6#5                         7.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Mon May  2 00:14:27 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 30 rows and 13 columns.
+Reduced LP has 11 rows, 18 columns, and 36 nonzeros.
+Presolve time = 0.00 sec. (0.02 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            40.600000
+Iteration:     8   Dual objective     =           213.000000
+
+Dual simplex - Infeasible:  Objective =  2.2830000000e+02
+Solution time =    0.00 sec.  Iterations = 31 (0)
+Infeasible variable = slack c4_2
+Deterministic time = 0.11 ticks  (108.62 ticks/sec)
+
+
+Log started (V20.1.0.0) Mon May  2 00:15:57 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 30 rows and 12 columns.
+Reduced LP has 11 rows, 18 columns, and 36 nonzeros.
+Presolve time = 0.00 sec. (0.02 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            40.600000
+Iteration:     8   Dual objective     =           213.000000
+
+Dual simplex - Infeasible:  Objective =  2.2830000000e+02
+Solution time =    0.00 sec.  Iterations = 31 (0)
+Infeasible variable = slack c4_2
+Deterministic time = 0.11 ticks  (108.33 ticks/sec)
+
+
+Log started (V20.1.0.0) Mon May  2 00:18:38 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 30 rows and 12 columns.
+Reduced LP has 17 rows, 19 columns, and 60 nonzeros.
+Presolve time = 0.00 sec. (0.03 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            40.600000
+
+Dual simplex - Infeasible:  Objective =  1.4231000000e+03
+Solution time =    0.00 sec.  Iterations = 16 (0)
+Infeasible variable = slack c3_1
+Deterministic time = 0.08 ticks  (79.30 ticks/sec)
+
+
+Variable Name           Solution Value
+X#1#3                         7.000000
+X#1#4                         5.000000
+X#2#2                         5.000000
+X#2#5                         3.000000
+X#3#1                         4.000000
+X#3#4                         4.000000
+X#4#1                         3.000000
+X#4#2                         5.000000
+X#5#1                         3.000000
+X#5#3                         3.000000
+X#5#5                         1.000000
+X#6#4                         1.000000
+X#6#5                         6.000000
+CMax                         12.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Mon May  2 00:19:06 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 30 rows and 12 columns.
+Aggregator did 2 substitutions.
+Reduced LP has 15 rows, 17 columns, and 58 nonzeros.
+Presolve time = 0.00 sec. (0.04 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.100000
+Iteration:     5   Dual objective     =           300.800000
+
+Dual simplex - Infeasible:  Objective =  3.0050000000e+03
+Solution time =    0.00 sec.  Iterations = 10 (4)
+Infeasible variable = slack c3_4
+Deterministic time = 0.08 ticks  (76.98 ticks/sec)
+
+
+Variable Name           Solution Value
+X#1#1                         3.000000
+X#1#3                        -3.000000**
+X#1#4                         8.000000
+X#2#2                         6.000000
+X#2#5                         6.000000
+X#3#1                         4.000000
+X#3#2                         8.000000
+X#3#3                        -8.000000**
+X#3#4                         4.000000
+X#4#1                         5.000000
+X#4#3                        22.000000
+X#5#1                         2.000000
+X#5#3                         3.000000
+X#5#5                         2.000000
+X#6#4                         2.000000
+X#6#5                         6.000000
+CMax                         27.000000
+All other variables matching '*' are 0.

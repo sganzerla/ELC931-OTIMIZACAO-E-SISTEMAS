@@ -19,4 +19,4 @@ Repositório para resolução das listas de problemas de programação linear.
 * [Resposta 12](12/README.md)
 * [Resposta 13](13/README.md)
 * [Resposta 14b - incompleto](13/README.md)
-* [Resposta 16 - solucao nao factivel](16/README.md)
+* [Resposta 16](16/README.md)
