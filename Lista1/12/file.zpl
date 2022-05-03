@@ -1,8 +1,8 @@
 # vitaminas: A, B, C, D
-set v := {1, 2, 3, 4};
+set v := {1 to 4};
 
 # alimento: leite, arroz, feijão, carne
-set a := {1, 2, 3, 4};
+set a := {1 to 4};
 
 # vitamina * alimento
 set va := v * a;
