@@ -1,8 +1,12 @@
-zimpl	v       0	quantAlimento#1 	"quantAlimento#1"
-zimpl	v       1	quantAlimento#2 	"quantAlimento#2"
-zimpl	v       2	quantAlimento#3 	"quantAlimento#3"
-zimpl	v       3	quantAlimento#4 	"quantAlimento#4"
-zimpl	c       0	minVitaminaA_1  	"minVitaminaA_1"	0.0000000000000000e+000
-zimpl	c       1	minVitaminaB_1  	"minVitaminaB_1"	0.0000000000000000e+000
-zimpl	c       2	minVitaminaC_1  	"minVitaminaC_1"	0.0000000000000000e+000
-zimpl	c       3	minVitaminaD_1  	"minVitaminaD_1"	0.0000000000000000e+000
+zimpl	v       0	Xa#1            	"Xa#1"
+zimpl	v       1	Xa#2            	"Xa#2"
+zimpl	v       2	Xa#3            	"Xa#3"
+zimpl	v       3	Xa#4            	"Xa#4"
+zimpl	c       0	c1_1            	"c1_1"	0.0000000000000000e+000
+zimpl	c       1	c1_2            	"c1_2"	0.0000000000000000e+000
+zimpl	c       2	c1_3            	"c1_3"	0.0000000000000000e+000
+zimpl	c       3	c1_4            	"c1_4"	0.0000000000000000e+000
+zimpl	c       4	c2_1            	"c2_1"	0.0000000000000000e+000
+zimpl	c       5	c2_2            	"c2_2"	0.0000000000000000e+000
+zimpl	c       6	c2_3            	"c2_3"	0.0000000000000000e+000
+zimpl	c       7	c2_4            	"c2_4"	0.0000000000000000e+000

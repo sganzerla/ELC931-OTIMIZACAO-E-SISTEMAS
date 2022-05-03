@@ -22,3 +22,93 @@ Variable Name           Solution Value
 quantAlimento#1               7.000000
 quantAlimento#2               2.000000
 All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Mon May  2 23:05:30 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 0 rows and 2 columns.
+Reduced LP has 4 rows, 2 columns, and 8 nonzeros.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             9.600000
+
+Dual simplex - Optimal:  Objective =  1.0400000000e+01
+Solution time =    0.02 sec.  Iterations = 2 (0)
+Deterministic time = 0.01 ticks  (0.60 ticks/sec)
+
+
+Variable Name           Solution Value
+Xa#1                          7.000000
+Xa#2                          2.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Mon May  2 23:08:48 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 20 rows and 4 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Dual simplex - Optimal:  Objective =  2.8166666667e+06
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.01 ticks  (11.27 ticks/sec)
+
+
+Variable Name           Solution Value
+Xa#1                     125000.000000
+Xa#2                     500000.000000
+Xa#3                     333333.333333
+Xa#4                     166666.666667
+
+Log started (V20.1.0.0) Mon May  2 23:10:00 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 0 rows and 2 columns.
+Reduced LP has 4 rows, 2 columns, and 8 nonzeros.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            18.220000
+
+Dual simplex - Optimal:  Objective =  1.9102469136e+01
+Solution time =    0.00 sec.  Iterations = 3 (0)
+Deterministic time = 0.01 ticks  (9.55 ticks/sec)
+
+
+Variable Name           Solution Value
+Xa#1                          5.543210
+Xa#2                          1.950617
+Xa#3                          1.000000
+Xa#4                          1.000000
+
+Log started (V20.1.0.0) Mon May  2 23:11:46 2022
+
+
+Problem 'file.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 4 rows and 2 columns.
+Reduced LP has 4 rows, 2 columns, and 8 nonzeros.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            18.220000
+
+Dual simplex - Optimal:  Objective =  1.9102469136e+01
+Solution time =    0.00 sec.  Iterations = 3 (0)
+Deterministic time = 0.01 ticks  (11.82 ticks/sec)
+
