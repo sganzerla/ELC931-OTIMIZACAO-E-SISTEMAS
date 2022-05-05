@@ -2,6 +2,11 @@
 
 Repositório para resolução das listas de problemas de programação linear.
 
+## Exercícios Resolvidos
+
+<!-- lista de itens -->
+* [Lista 1](Lista1/README.md)
+
 Modela-se a resolução utilizando-se a linguagem matemática ZIMPL depois compila-se o modelo e resolve-o com o solver CPLEX.
 
 ![image](resources/flow.png)
@@ -17,14 +22,9 @@ O download do ZIMPL pode ser obtido através dos links:
 * [Nesse repositório](https://github.com/sganzerla/ELC931-OTIMIZACAO-E-SISTEMAS/blob/main/zimpl.exe)
 
 O download do CPLEX pode ser obtido através do link (necessário criar uma conta utilizando email acadêmico):
-* [https://www.ibm.com/academic](https://www.ibm.com/academic/topic/data-science)
+* [Repositório Oficial](https://www.ibm.com/academic/topic/data-science)
 
 ![image](resources/CPLEX.png)
-
-## Exercícios Resolvidos
-
-<!-- lista de itens -->
-* [Lista 1](Lista1/README.md)
 
 ### Referências
 
