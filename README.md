@@ -1,4 +1,4 @@
-# ELC931-OTIMIZACAO-E-SISTEMAS
+# ELC931-Otimização-Sistemas
 
 Repositório para resolução das listas de problemas de programação linear.
 
@@ -12,8 +12,8 @@ Necessário instalar o CPLEX e o ZIMPL.
 
 O ZIMPL já vêm com um executável sem instalação, mas o CPLEX precisa ser instalado.
 
-O dowload do ZIMPL pode ser obtido através do link:
-* [zimpl.zib.de/download](https://zimpl.zib.de/download/)
+O download do ZIMPL pode ser obtido através dos links:
+* [Repositório Oficial](https://zimpl.zib.de/download/)
 * [Nesse repositório](https://github.com/sganzerla/ELC931-OTIMIZACAO-E-SISTEMAS/blob/main/zimpl.exe)
 
 O download do CPLEX pode ser obtido através do link (necessário criar uma conta utilizando email acadêmico):
@@ -21,7 +21,7 @@ O download do CPLEX pode ser obtido através do link (necessário criar uma cont
 
 ![image](resources/CPLEX.png)
 
-## Listas
+## Exercícios Resolvidos
 
 <!-- lista de itens -->
 * [Lista 1](Lista1/README.md)
