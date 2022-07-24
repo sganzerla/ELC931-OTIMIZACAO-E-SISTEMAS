@@ -54,5 +54,6 @@ Visualizando a resposta.
 
 ## Referências
 
+* [simplex-algorithm for MATLAB by Mohammad Daneshian](https://www.mathworks.com/matlabcentral/fileexchange/85223-linear-programming-simplex-algorithm)
 * [Zimpl User Guide](resources/ZIMPL.png)
 * [Manual IBM CPLEX](https://www.ibm.com/docs/en/icos/12.10.0?topic=SSSA5P_12.10.0/ilog.odms.studio.help/Optimization_Studio/topics/COS_home.html)
