@@ -1,4 +1,4 @@
-# 3
+# 4-A
 
 ![image](resources/ex.jpg)
 
@@ -11,13 +11,13 @@
     var x2 >= 0;
 
     maximize Z:
-        2*x1 + 3*x2;
+        1*x1 + 2*x2;
 
     subto r1:
-        1*x1 + 1*x2 <= 5;
+        1*x1 - 2*x2 <= 3;
 
     subto r2:
-        2*x1 + 3*x2 <= 12;
+        1*x1 + 1*x2 <= 3;
 
 ### Problema Dual `pd.zpl`
 
@@ -26,13 +26,13 @@
     var w2 >= 0;
 
     minimize Z :
-        5*w1 + 12*w2;
+        3*w1 + 3*w2;
 
     subto r1:
-        1*w1 + 2*w2 >= 2;
+        1*w1 + 1*w2 >= 1;
 
     subto r2:
-        1*w1 + 3*w2 >= 3;
+        -2*w1 + 1*w2 >= 2;
 
 ## Solução CPLEX
 
