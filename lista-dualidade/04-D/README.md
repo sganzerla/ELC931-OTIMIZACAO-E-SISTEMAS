@@ -1,4 +1,4 @@
-# 4-C
+# 4-D
 
 ![image](resources/ex.jpg)
 
@@ -11,28 +11,32 @@
     var x2 >= 0;
 
     maximize Z:
-        3*x1 + 4*x2;
+        2*x1 + 3*x2;
 
     subto r1:
-        1*x1 - 2*x2 >= 4;
+        1*x1 + 1*x2 <= 7;
 
     subto r2:
-        1*x1 + 1*x2 <= 3;
+        2*x1 + 3*x2 <= 12;
+
+    subto r3:
+        1*x1 <= 5;
 
 ### Problema Dual `pd.zpl`
 
     # oposto do sinal nas restrições do primal
-    var w1 <= 0;
+    var w1 >= 0;
     var w2 >= 0;
+    var w3 >= 0;
 
     minimize Z :
-        4*w1 + 3*w2;
+        7*w1 + 12*w2 + 5*w3;
 
     subto r1:
-        1*w1 + 1*w2 >= 3;
+        1*w1 + 2*w2 + 1*w3 >= 2;
 
     subto r2:
-        -2*w1 + 1*w2 >= 4;
+        1*w1 + 3*w2 + 0*w3 >= 3;
 
 ## Solução CPLEX
 
