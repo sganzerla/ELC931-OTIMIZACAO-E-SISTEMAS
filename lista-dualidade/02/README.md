@@ -48,9 +48,6 @@
 
 ## Solução CPLEX
 
-Quando o primal é ilimitado ou infactível o Dual é infáctivel.
-Quando o dual é infactível o primal é ilimitado ou infactível.
-
 ### PP
 
 ![image](resources/sol-pp.jpg)
