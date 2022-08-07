@@ -5,6 +5,7 @@ Repositório para resolução das listas de problemas de programação linear.
 ## Exercícios
 
 * [Resposta 1](01/README.md)
+* [Resposta 2](02/README.md)
 
 ## CLI ZIMPL
 
