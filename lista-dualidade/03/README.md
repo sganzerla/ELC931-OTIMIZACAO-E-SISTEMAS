@@ -1,12 +1,8 @@
-# 1
+# 3
 
 ![image](resources/ex.jpg)
 
 ## Código ZIMPL
-
-Quando o primal é ilimitado ou infactível o Dual é infáctivel.
-
-Quando o dual é infactível o primal é ilimitado ou infactível.
 
 ### Problema Primal `pp.zpl`
 
@@ -16,26 +12,26 @@ Quando o dual é infactível o primal é ilimitado ou infactível.
     var x3 <= 0;
 
     maximize Z : 
-        4*x1 + 1*x2 + 1*x3;
+        4*x1 + 1*x2 + 5*x3;
     
     subto r1: 
-        1*x1 + 1*x2 + 1*x3 >= 2;
+        1*x1 + 1*x2 + 7*x3 >= 10;
 
     subto r2:
-        3*x1 + 4*x2 + 8*x3 <= 24;
+        3*x1 + 4*x2 + 8*x3 >= 11;
 
     subto r3:
-        5*x1 + 6*x2 + 9*x3 == 0;
+        5*x1 + 6*x2 + 9*x3 >= 12;
 
 ### Problema Dual `pd.zpl`
 
     # oposto do sinal nas restrições do primal
     var w1 <= 0;
-    var w2 >= 0;
-    var w3 >= -infinity;
+    var w2 <= 0;
+    var w3 <= 0;
 
     minimize Z :
-        2*w1 + 24*w2 + 0*w3;
+        10*w1 + 11*w2 + 12*w3;
 
     subto r1:
         1*w1 + 3*w2 + 5*w3 >= 4;
@@ -44,7 +40,7 @@ Quando o dual é infactível o primal é ilimitado ou infactível.
         1*w1 + 4*w2 + 6*w3 == 1;
 
     subto r3:
-        1*w1 + 8*w2 + 9*w3 <= 1;
+        7*w1 + 8*w2 + 8*w3 <= 5;
 
 ## Solução CPLEX
 
