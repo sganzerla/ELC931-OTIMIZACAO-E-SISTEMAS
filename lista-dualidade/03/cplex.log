@@ -63,3 +63,25 @@ Presolve time = 0.00 sec. (0.00 ticks)
 Presolve - Infeasible.
 Solution time =    0.00 sec.
 Deterministic time = 0.00 ticks  (0.34 ticks/sec)
+
+Log started (V20.1.0.0) Sun Aug  7 15:52:13 2022
+
+
+Problem 'pp.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.000000
+
+Dual simplex - Optimal:  Objective =  1.2000000000e+01
+Solution time =    0.00 sec.  Iterations = 1 (1)
+Deterministic time = 0.00 ticks  (2.24 ticks/sec)
+
+
+Variable Name           Solution Value
+x2                            4.000000
+All other variables matching '*' are 0.

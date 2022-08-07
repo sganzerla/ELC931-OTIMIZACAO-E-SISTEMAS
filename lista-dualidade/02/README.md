@@ -8,39 +8,35 @@
 
     # oposto do sinal nas restrições do dual
     var x1 >= 0; 
-    var x2 >= -infinity;
-    var x3 <= 0;
+    var x2 >= 0;
+    var x3 >= 0;
 
-    maximize Z : 
-        4*x1 + 1*x2 + 5*x3;
-    
+    maximize Z: 
+        3*x1 + 1*x2 + 4*x3;
+
     subto r1: 
-        1*x1 + 1*x2 + 7*x3 >= 10;
+        6*x1 + 3*x2 + 5*x3 <= 25;
 
     subto r2:
-        3*x1 + 4*x2 + 8*x3 >= 11;
-
-    subto r3:
-        5*x1 + 6*x2 + 9*x3 >= 12;
+        3*x1 + 4*x2 + 5*x3 <= 20;
 
 ### Problema Dual `pd.zpl`
 
     # oposto do sinal nas restrições do primal
     var w1 <= 0;
     var w2 <= 0;
-    var w3 <= 0;
 
     minimize Z :
-        10*w1 + 11*w2 + 12*w3;
+        25*w1 + 20*w2;
 
     subto r1:
-        1*w1 + 3*w2 + 5*w3 >= 4;
+        6*w1 + 3*w2 >= 3;
 
     subto r2:
-        1*w1 + 4*w2 + 6*w3 == 1;
+        3*w1 + 4*w2 >= 1;
 
     subto r3:
-        7*w1 + 8*w2 + 8*w3 <= 5;
+        5*w1 + 5*w2 >= 4;
 
 ## Solução CPLEX
 
