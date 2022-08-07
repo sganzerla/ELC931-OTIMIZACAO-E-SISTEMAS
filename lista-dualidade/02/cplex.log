@@ -20,3 +20,34 @@ Deterministic time = 0.00 ticks  (2.24 ticks/sec)
 Variable Name           Solution Value
 x2                            4.000000
 All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun Aug  7 15:02:38 2022
+
+
+Problem 'pp.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.000000
+Iteration:     2   Dual objective     =            17.000000
+
+Dual simplex - Optimal:  Objective =  1.7000000000e+01
+Solution time =    0.00 sec.  Iterations = 2 (1)
+Deterministic time = 0.00 ticks  (3.66 ticks/sec)
+
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Using devex.
+
+Primal simplex - Optimal:  Objective =  1.7000000000e+01
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.00 ticks  (0.37 ticks/sec)
+
+
+Variable Name           Solution Value
+x1                            1.666667
+x3                            3.000000
+All other variables matching '*' are 0.
