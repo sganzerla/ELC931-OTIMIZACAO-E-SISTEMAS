@@ -15,7 +15,7 @@ Repositório para resolução das listas de problemas de programação linear.
   * [Resposta B](04-B/README.md)
   * [Resposta C](04-C/README.md)
   * [Resposta D](04-D/README.md)
-  * [Resposta E](04-D/README.md)
+  * [Resposta E](04-E/README.md)
 
 ## CLI ZIMPL
 
