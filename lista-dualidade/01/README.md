@@ -1,6 +1,6 @@
 # 1
 
-![image](resources/ex.png)
+![image](resources/ex.jpg)
 
 ## Código ZIMPL
 
@@ -42,33 +42,10 @@
     subto r3:
         w1 + 8*w2 + 9*w3 <= 1;
 
-## CLI ZIMPL
-
-Comandos para compilar arquivo *.zpl:
-
-    zimpl file.zpl
-    <!-- output  file.lp -->
-    <!-- output  file.tbl -->
-
-## CLI CPLEX
-
-Abrir CLI CPLEX:
-
-    cplex
-
-Comando para ler modelo compilado do ZIMPL no CPLEX:
-
-    r file.lp
-
-Comando para otimizar problema lido:
-
-    opt
-
-Comando exibir solução:
-
-    disp sol var *
-
 ## Solução CPLEX
+
+Quando o primal é ilimitado ou infactível o Dual é infáctivel.
+Quando o dual é infactível o primal é ilimitado ou infactível.
 
 ### PP
 
