@@ -37,3 +37,49 @@ Variable Name           Solution Value
 w1                            1.375000
 w3                           -0.250000
 All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun Aug  7 18:13:57 2022
+
+
+Problem 'pd.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Dual infeasible due to empty column 'w1'.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Unbounded or infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (0.88 ticks/sec)
+
+Log started (V20.1.0.0) Sun Aug  7 18:16:59 2022
+
+
+Problem 'pp.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 1 columns.
+Aggregator did 1 substitutions.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Dual simplex - Optimal:  Objective =  4.0000000000e+00
+Solution time =    0.02 sec.  Iterations = 0 (0)
+Deterministic time = 0.00 ticks  (0.14 ticks/sec)
+
+
+Variable Name           Solution Value
+x2                            2.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sun Aug  7 18:19:46 2022
+
+
+Problem 'pd.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Dual infeasible due to empty column 'w1'.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Unbounded or infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (0.88 ticks/sec)
+No solution exists.

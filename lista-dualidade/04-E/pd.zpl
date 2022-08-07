@@ -3,7 +3,7 @@ var w1 >= 0;
 var w2 <= 0;
 var w3 >= -infinity;
 
-minimize Z :
+maximize Z :
      8*w1 + 10*w2 + 6*w3;
 
 subto r1:

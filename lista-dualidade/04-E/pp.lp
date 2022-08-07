@@ -5,7 +5,7 @@
 \ subto r1:     2*x1 + 2*x2 <= 8;
 \ subto r2:     1*x1 + 5*x2 >= 10;
 \ subto r3:     -1*x1 + 3*x2 == 6;
-\Problem name: pp
+\Problem name: .\pp.zpl
 Minimize
  Z:  +3 x1 +2 x2
 Subject to
