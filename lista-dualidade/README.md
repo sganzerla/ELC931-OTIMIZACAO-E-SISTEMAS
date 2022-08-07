@@ -5,15 +5,17 @@ Repositório para resolução das listas de problemas de programação linear.
 ## Exercícios
 
 * Exercício 1
-  * [Resposta a](01-A/README.md)
-  * [Resposta b](01-B/README.md)
-  * [Resposta c](01-C/README.md)
+  * [Resposta A](01-A/README.md)
+  * [Resposta B](01-B/README.md)
+  * [Resposta C](01-C/README.md)
 * [Exercício 2](02/README.md)
 * [Exercício 3](03/README.md)
 * Exercício 4
-  * [Resposta a](04-A/README.md)
-  * [Resposta b](04-B/README.md)
-  * [Resposta c](04-C/README.md)
+  * [Resposta A](04-A/README.md)
+  * [Resposta B](04-B/README.md)
+  * [Resposta C](04-C/README.md)
+  * [Resposta D](04-D/README.md)
+  * [Resposta E](04-D/README.md)
 
 ## CLI ZIMPL
 
