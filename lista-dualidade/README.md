@@ -13,6 +13,7 @@ Repositório para resolução das listas de problemas de programação linear.
 * Exercício 4
   * [Resposta a](04-A/README.md)
   * [Resposta b](04-B/README.md)
+  * [Resposta c](04-C/README.md)
 
 ## CLI ZIMPL
 
