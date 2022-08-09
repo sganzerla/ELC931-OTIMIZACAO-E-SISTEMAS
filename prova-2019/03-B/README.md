@@ -1,6 +1,8 @@
-# 3
+# 3-B
 
 ![image](resources/ex.jpg)
+
+Mude o lado direito da primeira restrição para b1 = 30
 
 ## Código ZIMPL
 
@@ -14,7 +16,7 @@
         -5*x1 + 5*x2 + 13*x3;
 
     subto c1:
-        -1*x1 + 1*x2 + 3*x3 <= 20;
+        -1*x1 + 1*x2 + 3*x3 <= 30;
 
     subto c2:
         12*x1 + 4*x2 + 10*x3 <= 90;
