@@ -7,13 +7,14 @@ Repositório para resolução das listas de problemas de programação linear.
 * [Exercício 1](01/README.md)
 * [Exercício 2](02/README.md)
 * [Exercício 3](03/README.md)
-* [Exercício 4-A](04-A/README.md)
-* [Exercício 4-B](04-B/README.md)
-* [Exercício 4-C](04-C/README.md)
-* [Exercício 4-D](04-D/README.md)
-* [Exercício 4-E](04-E/README.md)
-* [Exercício 4-F](04-F/README.md)
-* [Exercício 4-G](04-G/README.md)
+* Exercício 4
+  * [Exercício 4-A](04-A/README.md)
+  * [Exercício 4-B](04-B/README.md)
+  * [Exercício 4-C](04-C/README.md)
+  * [Exercício 4-D](04-D/README.md)
+  * [Exercício 4-E](04-E/README.md)
+  * [Exercício 4-F](04-F/README.md)
+  * [Exercício 4-G](04-G/README.md)
 
 ## CLI ZIMPL
 
