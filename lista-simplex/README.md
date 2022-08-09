@@ -1,4 +1,4 @@
-# Lista sobre dualidade e dual-simplex
+# Lista sobre método simplex
 
 Repositório para resolução das listas de problemas de programação linear.
 

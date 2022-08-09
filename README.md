@@ -7,6 +7,7 @@ Repositório para resolução das listas de problemas de programação linear.
 * [Lista Modelagem](lista-modelagem/README.md)
 * [Lista Simplex](lista-simplex/README.md)
 * [Lista Dualidade](lista-dualidade/README.md)
+* [Prova 2004](prova-2004/README.md)
 
 ### Solução com `Zimple` e `CPLEX`
 
