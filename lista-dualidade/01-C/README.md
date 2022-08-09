@@ -1,4 +1,4 @@
-# 1-c
+# 1-C
 
 ![image](resources/ex.jpg)
 
@@ -23,6 +23,8 @@
     subto r3:
         5*x1 + 6*x2 + 9*x3 >= 12;
 
+![image](resources/sol-pp.jpg)
+
 ### Problema Dual `pd.zpl`
 
     # oposto do sinal nas restrições do primal
@@ -41,13 +43,5 @@
 
     subto r3:
         7*w1 + 8*w2 + 8*w3 <= 5;
-
-## Solução CPLEX
-
-### PP
-
-![image](resources/sol-pp.jpg)
-
-### PD
 
 ![image](resources/sol-pd.jpg)

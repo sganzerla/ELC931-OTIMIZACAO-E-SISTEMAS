@@ -1,12 +1,8 @@
-# 1-a
+# 1-A
 
 ![image](resources/ex.jpg)
 
 ## Código ZIMPL
-
-Quando o primal é ilimitado ou infactível o Dual é infáctivel.
-
-Quando o dual é infactível o primal é ilimitado ou infactível.
 
 ### Problema Primal `pp.zpl`
 
@@ -27,6 +23,8 @@ Quando o dual é infactível o primal é ilimitado ou infactível.
     subto r3:
         5*x1 + 6*x2 + 9*x3 == 0;
 
+![image](resources/sol-pp.jpg)
+
 ### Problema Dual `pd.zpl`
 
     # oposto do sinal nas restrições do primal
@@ -45,13 +43,5 @@ Quando o dual é infactível o primal é ilimitado ou infactível.
 
     subto r3:
         1*w1 + 8*w2 + 9*w3 <= 1;
-
-## Solução CPLEX
-
-### PP
-
-![image](resources/sol-pp.jpg)
-
-### PD
 
 ![image](resources/sol-pd.jpg)

@@ -20,14 +20,24 @@
     subto r2:
         1*x1 + 2*x2 + 1*x3 >= 5;
 
-### Problema Dual `pd.zpl`
-
-## Solução CPLEX
-
-### PP
-
 ![image](resources/sol-pp.jpg)
 
-### PD
+### Problema Dual `pd.zpl`
+
+    # oposto do sinal nas restrições do primal
+    var w1 <= 0;
+    var w2 <= 0;
+
+    maximize Z :
+        4*w1 + 5*w2;
+
+    subto r1:
+        2*w1 + 1*w2 >= 8;
+
+    subto r2:
+        1*w1 + 2*w2 >= 7;
+
+    subto r3:
+        0*w1 + 1*w2 >= 3;
 
 ![image](resources/sol-pd.jpg)
