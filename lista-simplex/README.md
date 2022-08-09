@@ -12,6 +12,7 @@ Repositório para resolução das listas de problemas de programação linear.
 * [Exercício 11](11/README.md)
 * [Exercício 12](12/README.md)
 * [Exercício 14](14/README.md)
+* [Exercício 15](15/README.md)
 
 ## CLI ZIMPL
 
