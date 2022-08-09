@@ -1,0 +1,14 @@
+
+Log started (V20.1.0.0) Tue Aug  9 00:59:11 2022
+
+No problem exists.
+
+Problem 'pp.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Dual infeasible due to empty column 'x1'.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Unbounded or infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (0.67 ticks/sec)
+No solution exists.

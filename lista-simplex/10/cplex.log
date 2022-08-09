@@ -1,0 +1,22 @@
+
+Log started (V20.1.0.0) Tue Aug  9 00:42:55 2022
+
+
+Problem 'pp.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 2 columns.
+Aggregator did 1 substitutions.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Dual simplex - Optimal:  Objective =  3.0000000000e+00
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.00 ticks  (3.05 ticks/sec)
+
+
+Variable Name           Solution Value
+x1                            1.000000
+x2                            1.000000
+All other variables matching '*' are 0.
