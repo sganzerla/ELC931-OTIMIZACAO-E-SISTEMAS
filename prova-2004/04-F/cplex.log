@@ -1,5 +1,5 @@
 
-Log started (V20.1.0.0) Tue Aug  9 10:59:58 2022
+Log started (V20.1.0.0) Tue Aug  9 11:04:30 2022
 
 
 Problem 'pp.lp' read.
@@ -11,11 +11,11 @@ Presolve time = 0.00 sec. (0.00 ticks)
 
 Iteration log . . .
 Iteration:     1   Dual infeasibility =             1.999998
-Iteration:     3   Dual objective     =            35.000000
+Iteration:     4   Dual objective     =            41.000000
 
-Dual simplex - Optimal:  Objective =  4.9000000000e+01
-Solution time =    0.00 sec.  Iterations = 4 (2)
-Deterministic time = 0.01 ticks  (7.24 ticks/sec)
+Dual simplex - Optimal:  Objective =  4.1000000000e+01
+Solution time =    0.00 sec.  Iterations = 4 (3)
+Deterministic time = 0.01 ticks  (7.63 ticks/sec)
 
 
 Variable Name           Solution Value
