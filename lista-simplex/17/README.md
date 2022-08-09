@@ -1,4 +1,4 @@
-# 16
+# 17
 
 ![image](resources/ex.jpg)
 
@@ -8,17 +8,21 @@
 
     var x1 >= 0;
     var x2 >= 0;
+    var x3 >= 0;
 
     maximize Z:
-        3*x1 + 2*x2;
+        3*x1 + 3*x2;
 
     subto c1:
-        1*x1 - 2*x2 <= 4;
+        1*x1 + 0*x2 + 3*x3 <= 5;
 
     subto c2:
-        -1*x1 + 1*x2 <= 1;
+        0*x1 + 1*x2 + 0*x3 <= 5;
 
     subto c3:
-        1*x1 - 1*x2 <= 5;
+        3*x1 + 0*x2 + 2*x3 >= 6;
+
+    subto c4:
+        1*x1 + 1*x2 + 0*x3 <= 10;
 
 ![image](resources/sol.jpg)
