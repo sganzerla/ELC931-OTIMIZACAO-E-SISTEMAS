@@ -8,6 +8,8 @@ Repositório para resolução das listas de problemas de programação linear.
 * [Exercício 2](02/README.md)
 * [Exercício 3](03/README.md)
 * [Exercício 4-A](04-A/README.md)
+* [Exercício 4-B](04-B/README.md)
+* [Exercício 4-C](04-C/README.md)
 
 ## CLI ZIMPL
 
