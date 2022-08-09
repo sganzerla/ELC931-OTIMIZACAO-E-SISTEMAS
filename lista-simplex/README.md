@@ -18,6 +18,7 @@ Repositório para resolução das listas de problemas de programação linear.
 * Exercício 18
   * [Exercício I](18-I/README.md)  
   * [Exercício II](18-II/README.md)  
+  * [Exercício III](18-III/README.md)  
 
 ## CLI ZIMPL
 
