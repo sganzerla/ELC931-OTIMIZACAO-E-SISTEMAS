@@ -1,0 +1,26 @@
+
+Log started (V20.1.0.0) Tue Aug  9 10:56:24 2022
+
+
+Problem 'pp.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             1.999998
+Iteration:     4   Dual objective     =            27.000000
+
+Dual simplex - Optimal:  Objective =  4.9000000000e+01
+Solution time =    0.00 sec.  Iterations = 5 (3)
+Deterministic time = 0.01 ticks  (12.10 ticks/sec)
+
+
+Variable Name           Solution Value
+x1                            7.000000
+x2                           14.000000
+x5                            2.000000
+x6                            4.000000
+All other variables matching '*' are 0.
