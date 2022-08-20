@@ -29,7 +29,7 @@
 
     # mínimo mistura química 1
     subto c1: 
-        120*x2 + 90*x3 + 1*x5 >= 90;
+        120*x2 + 90*x3 - 1*x5 >= 90;
         
     # máximo mistura química 2
     subto c2:
@@ -58,6 +58,6 @@
 
     #  valor maximo do solvente 3
     subto c3:
-        1*w1 + 0*w2  <= 0;
+        -1*w1 + 0*w2  <= 0;
 
 ![image](resources/pd.jpg)

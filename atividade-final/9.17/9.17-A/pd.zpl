@@ -17,4 +17,4 @@ subto c2:
 
 #  valor maximo do solvente 3
 subto c3:
-    1*w1 + 0*w2  <= 0;
+    -1*w1 + 0*w2  <= 0;
