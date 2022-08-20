@@ -11,7 +11,7 @@ minimize Z :
 
 # mínimo material 1
 subto c1: 
-    1*x1 + 3*x2 + 0*x3 + 1*x4 <= 8;
+    1*x1 + 3*x2 + 0*x3 + 1*x4 <= 15;
     
 # mínimo material 2
 subto c2:

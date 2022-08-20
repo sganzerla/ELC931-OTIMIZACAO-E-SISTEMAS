@@ -6,7 +6,7 @@ var w3 >= 0; # materia prima 3
 
 # maximizar a quantidade de produtos
 maximize Z : 
-    8*w1 + 8*w2 + 6*w3;
+    15*w1 + 8*w2 + 6*w3;
 
 subto c1: 
     1*w1 + 2*w2 + 0*w3 <= -2;

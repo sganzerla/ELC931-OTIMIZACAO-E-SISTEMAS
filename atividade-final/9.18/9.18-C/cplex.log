@@ -136,3 +136,41 @@ Presolve time = 0.00 sec. (0.00 ticks)
 Presolve - Infeasible.
 Solution time =    0.00 sec.
 Deterministic time = 0.00 ticks  (0.36 ticks/sec)
+
+Log started (V20.1.0.0) Sat Aug 20 03:34:19 2022
+
+
+Problem 'pp.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             1.999998
+Iteration:     3   Dual objective     =           -21.600000
+
+Dual simplex - Optimal:  Objective = -2.1600000000e+01
+Solution time =    0.00 sec.  Iterations = 3 (2)
+Deterministic time = 0.01 ticks  (5.39 ticks/sec)
+
+
+Variable Name           Solution Value
+x1                            1.800000
+x2                            4.400000
+x3                            0.400000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sat Aug 20 03:36:25 2022
+
+
+Problem 'pd.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Bound infeasibility column 'w3'.
+Presolve time = 0.02 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.02 sec.
+Deterministic time = 0.00 ticks  (0.02 ticks/sec)
+No solution exists.

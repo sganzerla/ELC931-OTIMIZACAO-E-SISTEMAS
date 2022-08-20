@@ -4,7 +4,7 @@
 \ var x3 >= 0;
 \ var x4 >= 0;
 \ minimize Z :      -2*x1 - 4*x2 - 1*x3 - 1*x4;
-\ subto c1:      1*x1 + 3*x2 + 0*x3 + 1*x4 <= 8;
+\ subto c1:      1*x1 + 3*x2 + 0*x3 + 1*x4 <= 15;
 \ subto c2:     2*x1 + 1*x2 + 0*x3 + 0*x4 <= 8;
 \ subto c3:     0*x1 + 1*x2 + 4*x3 + 1*x4 <= 6;
 \Problem name: pp
@@ -12,7 +12,7 @@ Minimize
  Z:  -2 x1 -4 x2 - x3 - x4
 Subject to
  c1_1:
-  + x4 +3 x2 + x1 <= 8
+  + x4 +3 x2 + x1 <= 15
  c2_1:
   + x2 +2 x1 <= 8
  c3_1:
