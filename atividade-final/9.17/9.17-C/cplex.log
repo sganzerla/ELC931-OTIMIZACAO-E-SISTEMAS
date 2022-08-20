@@ -1,0 +1,44 @@
+
+Log started (V20.1.0.0) Sat Aug 20 04:53:43 2022
+
+
+Problem 'pp.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 0 rows and 1 columns.
+Reduced LP has 2 rows, 2 columns, and 4 nonzeros.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             7.894737
+
+Dual simplex - Optimal:  Objective =  8.1463414634e+00
+Solution time =    0.00 sec.  Iterations = 2 (0)
+Deterministic time = 0.00 ticks  (4.55 ticks/sec)
+
+
+Variable Name           Solution Value
+x2                            0.170732
+x3                            0.609756
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sat Aug 20 04:55:44 2022
+
+
+Problem 'pd.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 3 rows and 2 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Dual simplex - Optimal:  Objective =  6.6666666667e+00
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.00 ticks  (2.15 ticks/sec)
+
+
+Variable Name           Solution Value
+w2                            1.666667
+All other variables matching '*' are 0.
