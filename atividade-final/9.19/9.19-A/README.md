@@ -4,8 +4,6 @@
 
 ## Resolução com planilhas
 
-* [Formato Libre Office](analise%20sensibilidade-9.19-A.ods)
-
 ### Problema Primal
 
 ![image](resources/pp-planilha.jpg)
