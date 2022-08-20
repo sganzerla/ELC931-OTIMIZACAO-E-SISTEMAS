@@ -1,0 +1,215 @@
+
+Log started (V20.1.0.0) Sat Aug 20 04:04:22 2022
+
+
+Problem 'pp.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+
+Log started (V20.1.0.0) Sat Aug 20 04:04:31 2022
+
+
+Problem 'pp.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 0 rows and 1 columns.
+Reduced LP has 2 rows, 3 columns, and 6 nonzeros.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             8.000000
+
+Dual simplex - Optimal:  Objective =  8.0000000000e+00
+Solution time =    0.00 sec.  Iterations = 1 (0)
+Deterministic time = 0.01 ticks  (5.02 ticks/sec)
+
+
+Variable Name           Solution Value
+x1                            0.500000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sat Aug 20 04:07:20 2022
+
+
+Problem 'pp.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 0 rows and 1 columns.
+Reduced LP has 2 rows, 3 columns, and 6 nonzeros.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Iteration log . . .
+Iteration:     1   Scaled dual infeas =             0.000000
+
+Dual simplex - Optimal:  Objective =  2.4000000000e+01
+Solution time =    0.00 sec.  Iterations = 1 (1)
+Deterministic time = 0.01 ticks  (5.15 ticks/sec)
+
+
+Variable Name           Solution Value
+x2                            2.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sat Aug 20 04:09:32 2022
+
+
+Problem 'pp.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 0 rows and 1 columns.
+Reduced LP has 2 rows, 3 columns, and 6 nonzeros.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             8.000000
+
+Dual simplex - Optimal:  Objective =  8.0000000000e+00
+Solution time =    0.00 sec.  Iterations = 1 (0)
+Deterministic time = 0.01 ticks  (5.02 ticks/sec)
+
+
+Variable Name           Solution Value
+x1                            0.500000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sat Aug 20 04:19:13 2022
+
+No problem exists.
+
+Problem 'pp.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 3 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Dual simplex - Optimal:  Objective =  0.0000000000e+00
+Solution time =    0.02 sec.  Iterations = 0 (0)
+Deterministic time = 0.00 ticks  (0.13 ticks/sec)
+
+
+Variable Name           Solution Value
+x5                           90.000000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sat Aug 20 04:26:03 2022
+
+
+Problem 'pd.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Dual infeasible due to empty column 'w2'.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Unbounded or infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (0.32 ticks/sec)
+No solution exists.
+
+Log started (V20.1.0.0) Sat Aug 20 04:27:58 2022
+
+
+Problem 'pd.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 3 rows and 2 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Dual simplex - Optimal:  Objective =  6.6666666667e+01
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.00 ticks  (2.15 ticks/sec)
+
+
+Variable Name           Solution Value
+w2                            1.666667
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sat Aug 20 04:30:49 2022
+
+
+Problem 'pd.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 3 rows and 2 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Dual simplex - Optimal:  Objective =  6.6666666667e+00
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.00 ticks  (2.15 ticks/sec)
+
+
+Variable Name           Solution Value
+w2                            1.666667
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sat Aug 20 04:38:40 2022
+
+
+Problem 'pp.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 0 rows and 1 columns.
+Reduced LP has 2 rows, 2 columns, and 4 nonzeros.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             9.000000
+
+Dual simplex - Optimal:  Objective =  9.0000000000e+00
+Solution time =    0.00 sec.  Iterations = 1 (0)
+Deterministic time = 0.00 ticks  (3.83 ticks/sec)
+
+
+Variable Name           Solution Value
+x2                            0.750000
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sat Aug 20 04:39:59 2022
+
+
+Problem 'pd.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 3 rows and 2 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Dual simplex - Optimal:  Objective =  6.6666666667e+00
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.00 ticks  (2.15 ticks/sec)
+
+
+Variable Name           Solution Value
+w2                            1.666667
+All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sat Aug 20 04:46:44 2022
+
+
+Problem 'pp.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 0 rows and 1 columns.
+Reduced LP has 2 rows, 2 columns, and 4 nonzeros.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             8.800000
+
+Dual simplex - Optimal:  Objective =  8.8000000000e+00
+Solution time =    0.02 sec.  Iterations = 1 (0)
+Deterministic time = 0.00 ticks  (0.24 ticks/sec)
+
+
+Variable Name           Solution Value
+x2                            0.733333
+All other variables matching '*' are 0.
