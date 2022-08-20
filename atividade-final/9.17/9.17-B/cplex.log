@@ -213,3 +213,19 @@ Deterministic time = 0.00 ticks  (0.24 ticks/sec)
 Variable Name           Solution Value
 x2                            0.733333
 All other variables matching '*' are 0.
+
+Log started (V20.1.0.0) Sat Aug 20 04:47:46 2022
+
+
+Problem 'pd.lp' read.
+Read time = 0.02 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Tried aggregator 1 time.
+LP Presolve eliminated 3 rows and 2 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+
+Dual simplex - Optimal:  Objective =  6.6666666667e+00
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.00 ticks  (2.15 ticks/sec)
+
