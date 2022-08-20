@@ -38,7 +38,6 @@
     subto c2:
         0*x1 + 1*x2 + 3*x3 + 1*x4 + 3*x5 + 2*x6 >= 39;
 
-
 ![image](resources/pp.jpg)
 
 <!-- ### Problema Dual `pd.zpl`
