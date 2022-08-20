@@ -112,3 +112,24 @@ Presolve time = 0.00 sec. (0.00 ticks)
 Presolve - Infeasible.
 Solution time =    0.00 sec.
 Deterministic time = 0.00 ticks  (0.36 ticks/sec)
+
+Log started (V20.1.0.0) Sat Aug 20 03:20:58 2022
+
+
+Problem 'pd.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Bound infeasibility column 'w3'.
+Presolve time = 0.00 sec. (0.00 ticks)
+Presolve - Infeasible.
+Solution time =    0.00 sec.
+Deterministic time = 0.00 ticks  (0.36 ticks/sec)
+
+Log started (V20.1.0.0) Sat Aug 20 03:22:46 2022
+
+
+Problem 'pd.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+Bound infeasibility column 'w3'.
+Presolve time = 0.00 sec. (0.00 ticks)

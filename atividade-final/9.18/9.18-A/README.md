@@ -2,7 +2,7 @@
 
 ![image](../../resources/9-18.PNG)
 
-## Resolução com planilhas
+<!-- ## Resolução com planilhas
 
 ### Problema Primal
 
@@ -10,7 +10,7 @@
 
 ### Problema Dual
 
-![image](resources/pd-planilha.jpg)
+![image](resources/pd-planilha.jpg) -->
 
 ## Resolução com solver ZIMPL e CPLEX
 
@@ -45,24 +45,24 @@
 
     # oposto do sinal nas restrições do primal
 
-    var w1 >= 0; # vitamina A
-    var w2 >= 0; # vitamina C
-    var w3 >= 0; # vitamina D
+    var w1 >= 0; # materia prima 1
+    var w2 >= 0; # materia prima 2
+    var w3 >= 0; # materia prima 3
 
-    # maximizar a quantidade de vitaminas
+    # maximizar a quantidade de produtos
     maximize Z : 
-        5*w1 + 50*w2 + 10*w3;
+        8*w1 + 8*w2 + 6*w3;
 
-    # valor maximo com verduras
     subto c1: 
-        10*w1 + 10*w2 + 10*w3 <= 50;
+        1*w1 + 2*w2 + 0*w3 <= -2;
         
-    # valor maximo com batatas
     subto c2:
-        1*w1 + 10*w2 + 11*w3 <= 100;
+        3*w1 + 1*w2 + 1*w3 <= -4;
 
-    # valor maximo com milho
     subto c3:
-        9*w1 + 10*w2 + 11*w3 <= 51;
+        0*w1 + 0*w2 + 4*w3 <= -1;
+
+    subto c4:
+        1*w1 + 0*w2 + 1*w3 <= -1;
 
 ![image](resources/pd.jpg)
