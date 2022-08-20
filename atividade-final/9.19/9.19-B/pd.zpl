@@ -19,3 +19,7 @@ subto c2:
 # valor maximo com milho
 subto c3:
     9*w1 + 10*w2 + 11*w3 <= 51;
+
+# valor maximo com milho
+subto c4:
+    0*w1 + 10*w2 + 20*w3 <= 40;

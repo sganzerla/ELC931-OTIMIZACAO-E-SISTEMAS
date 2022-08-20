@@ -6,7 +6,8 @@
 \ subto c1:      10*w1 + 10*w2 + 10*w3 <= 50;
 \ subto c2:     1*w1 + 10*w2 + 11*w3 <= 100;
 \ subto c3:     9*w1 + 10*w2 + 11*w3 <= 51;
-\Problem name: .\pd.zpl
+\ subto c4:     0*w1 + 10*w2 + 20*w3 <= 40;
+\Problem name: pd
 Maximize
  Z:  +5 w1 +50 w2 +10 w3
 Subject to
@@ -16,6 +17,8 @@ Subject to
   +11 w3 +10 w2 + w1 <= 100
  c3_1:
   +11 w3 +10 w2 +9 w1 <= 51
+ c4_1:
+  +20 w3 +10 w2 <= 40
 Bounds
  0 <= w1 <= +inf
  0 <= w2 <= +inf
