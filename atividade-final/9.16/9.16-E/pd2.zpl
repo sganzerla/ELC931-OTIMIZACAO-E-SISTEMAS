@@ -5,7 +5,7 @@ var w1 >= 0;
 var w2 >= 0; 
 
 maximize Z : 
-    9*w1 + 19*w2;
+    -10*w1 + 19*w2;
 
 # maximo do alimento 1
 subto c1: 
