@@ -1,10 +1,8 @@
-# atividade-final
+# 9.18
 
-Análise de Sensibilidade
+![image](../resources/9-18.PNG)
 
-## Exercícios do Capítulo 9 do Livro `Linear Programming - Katta Murty`
-
-- [9.16](9.16/README.md)
-- [9.17](9.17/README.md)
-- [9.18](9.18/README.md)
-- [9.19](9.19/README.md)
+- [9.18-A](9.18-A/README.md)
+- [9.18-B](9.18-B/README.md)
+- [9.18-C](9.18-C/README.md)
+- [9.18-D](8-D.19/README.md)
