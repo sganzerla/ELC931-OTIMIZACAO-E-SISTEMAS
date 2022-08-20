@@ -64,11 +64,4 @@
     subto c3:
         9*w1 + 10*w2 + 11*w3 <= 51;
 
-max 5w1 + 50w2 + 10w3
-sa 10w1 + 10w2 + 10w3 <=  50
-    1w1 + 10w2 + 11w3 <= 100
-    9w1 + 10w2 + 11w3 <=  51
-
-
-
 ![image](resources/pd.jpg)
