@@ -9,6 +9,7 @@ Repositório para resolução das listas de problemas de programação linear.
 * [Lista Dualidade](lista-dualidade/README.md)
 * [Prova 2004](prova-2004/README.md)
 * [Prova 2019](prova-2019/README.md)
+* [Atividade Final](atividade-final/README.md)
 
 ### Solução com `Zimple` e `CPLEX`
 
