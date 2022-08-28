@@ -10,6 +10,10 @@ Descobrir onde está localizado o CPLEX no Linux
 
     python C:`Program Files`\IBM\ILOG\CPLEX_Studio201\python\setup.py install
 
+Ou no Ubuntu
+
+    python3 /opt/ibm/ILOG/CPLEX_Studio_Community221/python/setup.py install
+
 Instalar os pacotes
 
     pip install  cplex  docplex
